@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-15MNR6N</Machine>
+    <WindowsUser>subin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM64</SolutionConfiguration>
+    <PackageArchitecture>arm64</PackageArchitecture>
+    <PackageIdentityName>1e3f3e92-ab7f-407e-b2fe-107d86cf39d7</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\obj\Robot_PathPlanning_MR\ARM64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\bin\ARM64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3714B675D638D8481C57DC59EA4B8AB9512BD3F2F20E2A325262734E247E6CD7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>PathPlanning_1.0.0.0_arm64__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>PathPlanning_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>PathPlanning</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\bin\ARM64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-12-26T13:17:06.926</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\bin\ARM64\Release\Robot_PathPlanning_MR.exe">
+      <PackagePath>Robot_PathPlanning_MR.exe</PackagePath>
+      <Modified>2022-12-26T13:17:06.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2021-06-11T19:48:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2021-06-11T19:48:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\bin\ARM64\Release\Robot_PathPlanning_MR.winmd">
+      <PackagePath>Robot_PathPlanning_MR.winmd</PackagePath>
+      <Modified>2022-12-22T09:23:52.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-11T18:57:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2022-12-26T13:15:21.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+      <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2022-12-26T13:15:20.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\2.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\2.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.5\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.5\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2022-12-26T13:15:14.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2022-12-26T13:15:11.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\config">
+      <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
+      <Modified>2021-06-11T18:56:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2021-06-11T18:57:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2022-12-26T13:15:20.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2022-12-26T13:15:14.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2022-12-26T13:15:15.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2022-12-26T13:15:19.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2022-12-26T13:15:11.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2022-12-26T13:15:15.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2022-12-26T13:15:19.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2022-12-26T13:15:37.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\resources.resource">
+      <PackagePath>Data\resources.resource</PackagePath>
+      <Modified>2022-12-26T13:15:15.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2022-12-26T13:15:19.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\RuntimeInitializeOnLoads.json">
+      <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
+      <Modified>2022-12-26T13:15:08.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\ScriptingAssemblies.json">
+      <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
+      <Modified>2022-12-26T13:15:14.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2022-04-06T06:59:47.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2022-04-14T16:58:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2021-06-11T18:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\browscap.ini">
+      <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
+      <Modified>2021-06-11T18:56:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\2.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.5\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
+      <Modified>2021-06-11T18:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2022-12-22T09:18:21.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
+      <Modified>2022-12-22T09:18:11.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2022-12-22T09:18:11.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\UnityOpenXR.dll">
+      <PackagePath>UnityOpenXR.dll</PackagePath>
+      <Modified>2022-04-14T16:58:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\CoarseRelocUW.dll">
+      <PackagePath>CoarseRelocUW.dll</PackagePath>
+      <Modified>2022-05-17T04:59:34.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\AzureSpatialAnchors.dll">
+      <PackagePath>AzureSpatialAnchors.dll</PackagePath>
+      <Modified>2022-05-17T04:59:34.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\FrozenWorldPlugin.dll">
+      <PackagePath>FrozenWorldPlugin.dll</PackagePath>
+      <Modified>2022-05-17T03:34:17.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\Microsoft.MixedReality.QR.dll">
+      <PackagePath>Microsoft.MixedReality.QR.dll</PackagePath>
+      <Modified>2021-11-22T02:40:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\openxr_loader.dll">
+      <PackagePath>openxr_loader.dll</PackagePath>
+      <Modified>2022-04-14T16:58:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\openxr_runtime_debugger.dll">
+      <PackagePath>openxr_runtime_debugger.dll</PackagePath>
+      <Modified>2022-04-14T16:58:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\MicrosoftOpenXRPlugin.dll">
+      <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
+      <Modified>2022-04-06T06:59:47.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\Robot_PathPlanning_MR\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+      <Modified>2021-06-11T18:56:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\bin\ARM64\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2022-12-22T09:23:48.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
+      <PackagePath>baselib.dll</PackagePath>
+      <Modified>2021-06-11T19:47:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Subin\ResearchWork\Robot_PathPlanning_MR\buildHBR\build\bin\ARM64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-12-26T13:17:06.794</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

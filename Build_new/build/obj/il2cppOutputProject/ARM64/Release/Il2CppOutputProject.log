@@ -1,0 +1,11 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 16.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\ARM64\link.exe
+  	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\ARM64\cl.exe
+  
+  	Output directory: D:\MR_Projects\Target_prediction_MR\Build_new\build\bin\ARM64\Release
+  	Cache directory: D:\MR_Projects\Target_prediction_MR\Build_new\build\obj\il2cppOutputProject\ARM64\Release
+  ObjectFiles: 754 of which compiled: 0
+  Total compilation time: 495 milliseconds.
+  Cleaned up 1 object files.

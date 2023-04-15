@@ -1,0 +1,542 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterBase::.ctor()
+extern void AdjusterBase__ctor_mBCF5C4DD16BB3E098D9EC3D00146ACE44F930267 (void);
+// 0x00000002 Microsoft.MixedReality.WorldLocking.Core.IAttachmentPointManager Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::get_Manager()
+extern void AdjusterFixed_get_Manager_mACD56F1F5F70B7C1C61C13F915FA68BFFBA4F295 (void);
+// 0x00000003 Microsoft.MixedReality.WorldLocking.Core.IAttachmentPoint Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::get_AttachmentPoint()
+extern void AdjusterFixed_get_AttachmentPoint_m67CD08ECBEFCDF6BBCDC8D22DFE91FBC0D63D569 (void);
+// 0x00000004 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::set_AttachmentPoint(Microsoft.MixedReality.WorldLocking.Core.IAttachmentPoint)
+extern void AdjusterFixed_set_AttachmentPoint_mFA3D5C1CC9953510294151ADFA83FF15DC1D3B10 (void);
+// 0x00000005 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::Start()
+extern void AdjusterFixed_Start_mB5A074D8FE2352D9F20FE949B91F87BD3136DF7E (void);
+// 0x00000006 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::OnDestroy()
+extern void AdjusterFixed_OnDestroy_m476704AA2B759044C8563F14381D56D1EFF83D31 (void);
+// 0x00000007 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::UpdatePosition()
+extern void AdjusterFixed_UpdatePosition_mD0BC230915CCD027ECDA17776AA8ECA87312AD93 (void);
+// 0x00000008 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::HandleAdjustLocation(UnityEngine.Pose)
+extern void AdjusterFixed_HandleAdjustLocation_m238E71A3520C6BDDF1C15628BC57EA22251F789A (void);
+// 0x00000009 System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::HandleAdjustState(Microsoft.MixedReality.WorldLocking.Core.AttachmentPointStateType)
+extern void AdjusterFixed_HandleAdjustState_m69E65B3D79120ECA8033ECBEF6FDC5E151DECA41 (void);
+// 0x0000000A System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterFixed::.ctor()
+extern void AdjusterFixed__ctor_m96CA6EB2A28F27DB7C85D125E35963010FC0C3FA (void);
+// 0x0000000B System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterMoving::Update()
+extern void AdjusterMoving_Update_m4E84ECE15650FC32E86861BC7E148494331DF7FF (void);
+// 0x0000000C System.Void Microsoft.MixedReality.WorldLocking.Tools.AdjusterMoving::.ctor()
+extern void AdjusterMoving__ctor_mB0AB9CC28CBBEF9759EAA463FFA81CD1AC340188 (void);
+// 0x0000000D System.Single Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::get_VerticalDisplacement()
+extern void AnchorGraphVisual_get_VerticalDisplacement_mBCD96F3416990ED7BBAF7DF41792570B1B0FBDEE (void);
+// 0x0000000E System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::set_VerticalDisplacement(System.Single)
+extern void AnchorGraphVisual_set_VerticalDisplacement_m0B64A4609652940FBBAFD7086DA07A4F2E9F71C7 (void);
+// 0x0000000F Microsoft.MixedReality.WorldLocking.Core.WorldLockingManager Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::get_manager()
+extern void AnchorGraphVisual_get_manager_m218C7E652ED16E11EC8D77C2E95762CB61BF69E8 (void);
+// 0x00000010 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::Reset()
+extern void AnchorGraphVisual_Reset_mA057F9D721DCCAEB263F7E9BF35D331CCEAB4937 (void);
+// 0x00000011 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::RefitHandler(Microsoft.MixedReality.WorldLocking.Core.FragmentId,Microsoft.MixedReality.WorldLocking.Core.FragmentId[])
+extern void AnchorGraphVisual_RefitHandler_mA14248C1F2F764805E3EEAE53F2B01C8B55CDFA7 (void);
+// 0x00000012 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::OnEnable()
+extern void AnchorGraphVisual_OnEnable_m7EAC0031ED209A10733356BFA3FBA7A8118EAA10 (void);
+// 0x00000013 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::OnDisable()
+extern void AnchorGraphVisual_OnDisable_m9C6D2E0A61674208AAFDE8202D18817670BFE8BD (void);
+// 0x00000014 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::Update()
+extern void AnchorGraphVisual_Update_mFA5D8E19E45C0ADD3A49C67D00AE8BFBDBFB5478 (void);
+// 0x00000015 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::UpdateSpongy()
+extern void AnchorGraphVisual_UpdateSpongy_m4DFF7746E98DB621F27B8BC5BAD24D05D6A858A9 (void);
+// 0x00000016 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::SetSupportRelevances()
+extern void AnchorGraphVisual_SetSupportRelevances_mEA5E23B2FE33C85B8AB5A2E919BAED8CB03FC5B7 (void);
+// 0x00000017 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::UpdateFrozen()
+extern void AnchorGraphVisual_UpdateFrozen_m3D3F881C0F9B04DFA7765EDA3C8E7FADC6026289 (void);
+// 0x00000018 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::SyncDisplacements(Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/DisplacementCreator,System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>>,System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual>>,System.Collections.Generic.List`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine>>)
+extern void AnchorGraphVisual_SyncDisplacements_mD21EC8B62B79FB256C7E3649459E03C2165372C2 (void);
+// 0x00000019 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::UpdateFragmentVisuals()
+extern void AnchorGraphVisual_UpdateFragmentVisuals_m1DCF7B62B91E76A58CDA6A4D44735040D953DACC (void);
+// 0x0000001A UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::EnsureWorldLockingVizRoot()
+extern void AnchorGraphVisual_EnsureWorldLockingVizRoot_mCC16E9045C9BF5286EB2CD2DF9127207FBF666B5 (void);
+// 0x0000001B Microsoft.MixedReality.WorldLocking.Core.AnchorEdge Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::RegularizeEdge(Microsoft.MixedReality.WorldLocking.Core.AnchorEdge)
+extern void AnchorGraphVisual_RegularizeEdge_m2A7818103DFA33E7F292A5C1A53E9FAD712AF23C (void);
+// 0x0000001C System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::CompareAnchorEdges(Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Core.AnchorEdge)
+extern void AnchorGraphVisual_CompareAnchorEdges_mBDB3AC5563AA8C08EEAC312FC877289BD05A4BBC (void);
+// 0x0000001D System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::FindInSortedList(S,System.Collections.Generic.List`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<S,T>>,System.Collections.Generic.IComparer`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<S,T>>)
+// 0x0000001E System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::CheckSpongyRoot(UnityEngine.Transform)
+extern void AnchorGraphVisual_CheckSpongyRoot_mC95524ED885353749915D55555831F224E7BF42E (void);
+// 0x0000001F System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual::.ctor()
+extern void AnchorGraphVisual__ctor_m4694C5CDC8256B97FD442876EE6372EBF50649A2 (void);
+// 0x00000020 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/SpongyVisualCreator::.ctor(Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual,Microsoft.MixedReality.WorldLocking.Tools.FrameVisual,System.Single)
+extern void SpongyVisualCreator__ctor_m4D6BDBE122CE5BB656B1F8E78CD2543D05942AA0 (void);
+// 0x00000021 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/SpongyVisualCreator::CreateSpongyVisual(Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual>&)
+extern void SpongyVisualCreator_CreateSpongyVisual_m0F1C65CE2668BC39241845773BE8B23ABB89C044 (void);
+// 0x00000022 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/SpongyVisualCreator::DestroySpongyVisual(Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual>)
+extern void SpongyVisualCreator_DestroySpongyVisual_m438B35793CBBF7718A64640DB9EEFA85AEFEA24C (void);
+// 0x00000023 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenAnchorVisualCreator::.ctor(Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual,System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.WorldLocking.Core.FragmentId,Microsoft.MixedReality.WorldLocking.Tools.FrameVisual>,UnityEngine.Pose)
+extern void FrozenAnchorVisualCreator__ctor_m8D2521218EA4B0726BF69ADE68DB02424E41A34F (void);
+// 0x00000024 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenAnchorVisualCreator::CreateFrozenVisual(Microsoft.MixedReality.WorldLocking.Core.AnchorFragmentPose,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>&)
+extern void FrozenAnchorVisualCreator_CreateFrozenVisual_m7527A5DEAA683D3AF7CC060716DCD59BB8260DE7 (void);
+// 0x00000025 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenAnchorVisualCreator::SetPose(Microsoft.MixedReality.WorldLocking.Core.AnchorFragmentPose,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual)
+extern void FrozenAnchorVisualCreator_SetPose_mCB2A9BD0576185700C88BDA3E6956617CCC96D5C (void);
+// 0x00000026 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenAnchorVisualCreator::UpdateFrozenVisual(Microsoft.MixedReality.WorldLocking.Core.AnchorFragmentPose,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>)
+extern void FrozenAnchorVisualCreator_UpdateFrozenVisual_m2A369983676995856507112DA166777EBFF35536 (void);
+// 0x00000027 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenAnchorVisualCreator::DestroyFrozenVisual(Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>)
+extern void FrozenAnchorVisualCreator_DestroyFrozenVisual_m05AB0101BA4AD2E99CF7558D651A7270C3908575 (void);
+// 0x00000028 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenEdgeVisualCreator::.ctor(Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual,System.Collections.Generic.List`1<Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>>)
+extern void FrozenEdgeVisualCreator__ctor_mB61DF7ECFC119A3E4AC96470AD3A96D7B4753E49 (void);
+// 0x00000029 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenEdgeVisualCreator::CreateFrozenEdge(Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine>&)
+extern void FrozenEdgeVisualCreator_CreateFrozenEdge_mD12FC109807BDE2E569E33FC84E71947AF963205 (void);
+// 0x0000002A System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenEdgeVisualCreator::DestroyFrozenEdge(Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine>)
+extern void FrozenEdgeVisualCreator_DestroyFrozenEdge_m572EE3803200E7E492A2A0E4C27822074D87AAD6 (void);
+// 0x0000002B System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenEdgeVisualCreator/<>c::.cctor()
+extern void U3CU3Ec__cctor_m21B69ED914659E23C36B0DCF54BE074FEFE53A8C (void);
+// 0x0000002C System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenEdgeVisualCreator/<>c::.ctor()
+extern void U3CU3Ec__ctor_m33E80BAAE19E615D7DD54512EC7B5BB2B4DBF0B6 (void);
+// 0x0000002D System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/FrozenEdgeVisualCreator/<>c::<.ctor>b__3_0(Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>)
+extern void U3CU3Ec_U3C_ctorU3Eb__3_0_mEAFD5F95670E6122305ADB82546B36E983D08411 (void);
+// 0x0000002E System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/DisplacementCreator::.ctor()
+extern void DisplacementCreator__ctor_mC735966CB9C4035F086C4B2E2261BCF9584F47DB (void);
+// 0x0000002F Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine> Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/DisplacementCreator::CreateDisplacement(Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual)
+extern void DisplacementCreator_CreateDisplacement_m9967E7478B946642537F737CC3766400B872A30A (void);
+// 0x00000030 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/DisplacementCreator::DestroyDisplacement(Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine>)
+extern void DisplacementCreator_DestroyDisplacement_m525B0BBA19BB93E5D203A2FC1D796AB87FFF06D9 (void);
+// 0x00000031 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/DisplacementCreator::ShouldConnect(Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual>)
+extern void DisplacementCreator_ShouldConnect_m463CF900D4F7D73EF77AFC15C9FF08A556E6E2C0 (void);
+// 0x00000032 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::.cctor()
+extern void U3CU3Ec__cctor_mDC82BA6C50B0E8EBDA8A186947690B0BB6257534 (void);
+// 0x00000033 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::.ctor()
+extern void U3CU3Ec__ctor_m1AC92BA4916C4A7A55922B56AA806C7FE7D535B0 (void);
+// 0x00000034 System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateSpongy>b__22_0(Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId,Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId)
+extern void U3CU3Ec_U3CUpdateSpongyU3Eb__22_0_m9413BCB75376881198CF0FC54785CCE23AF6DE5D (void);
+// 0x00000035 System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateSpongy>b__22_1(Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual>)
+extern void U3CU3Ec_U3CUpdateSpongyU3Eb__22_1_m2394F6EF1F2217AF869793CA003BE5C14156FA60 (void);
+// 0x00000036 System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateSpongy>b__22_2(Microsoft.MixedReality.WorldLocking.Core.AnchorManager/SpongyAnchorWithId,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual>)
+extern void U3CU3Ec_U3CUpdateSpongyU3Eb__22_2_m9C3FCE8A3C7F84E2DE3C7288385D2D319606E0A7 (void);
+// 0x00000037 System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<SetSupportRelevances>b__23_0(Microsoft.MixedReality.WorldLocking.Core.AnchorRelevance,Microsoft.MixedReality.WorldLocking.Core.AnchorRelevance)
+extern void U3CU3Ec_U3CSetSupportRelevancesU3Eb__23_0_mCF33AFEA4A6DE10D65B7DA0B40628076356201DB (void);
+// 0x00000038 System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateFrozen>b__24_0(Microsoft.MixedReality.WorldLocking.Core.AnchorFragmentPose,Microsoft.MixedReality.WorldLocking.Core.AnchorFragmentPose)
+extern void U3CU3Ec_U3CUpdateFrozenU3Eb__24_0_mA643CF5957DEEE8E93E7B43A40DBDFEF1D20B3A7 (void);
+// 0x00000039 System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateFrozen>b__24_1(Microsoft.MixedReality.WorldLocking.Core.AnchorFragmentPose,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorId,Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual>)
+extern void U3CU3Ec_U3CUpdateFrozenU3Eb__24_1_mDB0F55A2787F6AFB06C418E69D73E16F6E22077E (void);
+// 0x0000003A System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateFrozen>b__24_2(Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine>)
+extern void U3CU3Ec_U3CUpdateFrozenU3Eb__24_2_mF11FF562EF75E601E37843C404A85BDA183253B4 (void);
+// 0x0000003B System.Void Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<UpdateFrozen>b__24_3(Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Core.ResourceMirrorHelper.IdPair`2<Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine>)
+extern void U3CU3Ec_U3CUpdateFrozenU3Eb__24_3_m5CF123B5DF37E7BCA4ED11174C89F0B4B58FDAA3 (void);
+// 0x0000003C System.Int32 Microsoft.MixedReality.WorldLocking.Tools.AnchorGraphVisual/<>c::<.ctor>b__37_0(Microsoft.MixedReality.WorldLocking.Core.AnchorEdge,Microsoft.MixedReality.WorldLocking.Core.AnchorEdge)
+extern void U3CU3Ec_U3C_ctorU3Eb__37_0_mA53435A36AADAFD6F6DF9D7A5FF76E7862EA2C53 (void);
+// 0x0000003D Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine::Create(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Transform,System.Single,UnityEngine.Color)
+extern void ConnectingLine_Create_mB73FD74523AD3B1C434D6D38F1C5730040E60DB0 (void);
+// 0x0000003E System.Void Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine::Update()
+extern void ConnectingLine_Update_m9AA3361865CC5F5DE66FFC4DE0A5187EA4F84964 (void);
+// 0x0000003F System.Void Microsoft.MixedReality.WorldLocking.Tools.ConnectingLine::.ctor()
+extern void ConnectingLine__ctor_m2F3B5B8D44A7FD751C9079B22C1C81886A63975D (void);
+// 0x00000040 UnityEngine.Color Microsoft.MixedReality.WorldLocking.Tools.FrameVisual::get_color()
+extern void FrameVisual_get_color_m39D87F9B4F553395E938C405E4CDC8C026C7015F (void);
+// 0x00000041 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrameVisual::set_color(UnityEngine.Color)
+extern void FrameVisual_set_color_m2E77E2E81B5AF017948A569D65E017DF42A76976 (void);
+// 0x00000042 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrameVisual::Start()
+extern void FrameVisual_Start_m1CDD9845165886EDAC62808DD6DD7AE76D4BB1BB (void);
+// 0x00000043 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrameVisual::.ctor()
+extern void FrameVisual__ctor_mC96A2D035754C8FCFD8A830BA1A0D5770C167B8A (void);
+// 0x00000044 Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual::Instantiate(System.String,Microsoft.MixedReality.WorldLocking.Tools.FrameVisual)
+extern void FrozenAnchorVisual_Instantiate_mFBBE71CB709B42029DA691269F030DFC0D9DF227 (void);
+// 0x00000045 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual::Update()
+extern void FrozenAnchorVisual_Update_m84010703EF8F55966194C0067CB9FE69725912A9 (void);
+// 0x00000046 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenAnchorVisual::.ctor()
+extern void FrozenAnchorVisual__ctor_mCDDFABC185286AE2361F5EC2D2DA415B24E5355F (void);
+// 0x00000047 Microsoft.MixedReality.WorldLocking.Core.WorldLockingManager Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_manager()
+extern void FrozenSpatialMapping_get_manager_m46FB10A5FB26D88352371D372721C0440EC722ED (void);
+// 0x00000048 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_Active()
+extern void FrozenSpatialMapping_get_Active_m6C4F74A451F1B6C0F3E50A8040148AD900FF493A (void);
+// 0x00000049 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::set_Active(System.Boolean)
+extern void FrozenSpatialMapping_set_Active_mFA3E465BCF320C4E508D28E7C1031703D1A78E43 (void);
+// 0x0000004A UnityEngine.Material Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_DrawMaterial()
+extern void FrozenSpatialMapping_get_DrawMaterial_mF9059CB59A31F131247277939F4E25918B8689B1 (void);
+// 0x0000004B System.Boolean Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_Display()
+extern void FrozenSpatialMapping_get_Display_mC982FA4EECDF673447FCCE59874F0796554F1754 (void);
+// 0x0000004C System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::set_Display(System.Boolean)
+extern void FrozenSpatialMapping_set_Display_m86772B91E6514AF0383A97147B5C2FF11756FD53 (void);
+// 0x0000004D System.Boolean Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_Collide()
+extern void FrozenSpatialMapping_get_Collide_mE05C05C5654A625503F9E338A153E8029905C058 (void);
+// 0x0000004E UnityEngine.Transform Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_HangerObject()
+extern void FrozenSpatialMapping_get_HangerObject_m9BB8E3E11A6FBBA38E63A55CBDCF629A6C646AEF (void);
+// 0x0000004F UnityEngine.Transform Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_CenterObject()
+extern void FrozenSpatialMapping_get_CenterObject_m4BF41B06F962EF1E93C6BA6DBD56974C39BB9BDC (void);
+// 0x00000050 System.Single Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_UpdatePeriod()
+extern void FrozenSpatialMapping_get_UpdatePeriod_mB005AABB62A7D0DCF6416CD47A143181FDCF3729 (void);
+// 0x00000051 System.Single Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_Radius()
+extern void FrozenSpatialMapping_get_Radius_mF89E3F4B5B6F96967E6FD0B4C713DB3EB59DC323 (void);
+// 0x00000052 Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping/QualityType Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_Quality()
+extern void FrozenSpatialMapping_get_Quality_mE596B3D534936DBE1E7A2C923C36A0ACEF89011C (void);
+// 0x00000053 System.Single Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::get_TrianglesPerCubicMeter()
+extern void FrozenSpatialMapping_get_TrianglesPerCubicMeter_m7B7695AB1430450BCE4228650876B9743E1A5A3E (void);
+// 0x00000054 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::Start()
+extern void FrozenSpatialMapping_Start_mEE2A4D27328A313C6BD1DA7550D5D85EF0415272 (void);
+// 0x00000055 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::Setup()
+extern void FrozenSpatialMapping_Setup_mE3447FCF938FFF104B00C598C2B34A6C6AB6D277 (void);
+// 0x00000056 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::Teardown()
+extern void FrozenSpatialMapping_Teardown_m79392C782DBB07561E27B82911CC0231BE5FE41D (void);
+// 0x00000057 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::Update()
+extern void FrozenSpatialMapping_Update_m74B88C0D08C1D498020AEE127962038A0A3177C5 (void);
+// 0x00000058 System.Void Microsoft.MixedReality.WorldLocking.Tools.FrozenSpatialMapping::.ctor()
+extern void FrozenSpatialMapping__ctor_m3C8E8ECD6CC549BC0F70871C3630CFE774602899 (void);
+// 0x00000059 Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual::Instantiate(Microsoft.MixedReality.WorldLocking.Tools.FrameVisual,Microsoft.MixedReality.WorldLocking.Core.SpongyAnchor,System.Single)
+extern void SpongyAnchorVisual_Instantiate_m60C4156F228E0EE85EEF1C0EA3D3421887FF45CD (void);
+// 0x0000005A System.Void Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual::Update()
+extern void SpongyAnchorVisual_Update_m935D0C3E5A66C3B1803139DC18D14DC151D33B56 (void);
+// 0x0000005B System.Void Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual::SetSupportRelevance(System.Single)
+extern void SpongyAnchorVisual_SetSupportRelevance_mD61D0AEA0A68985D57EB8CBAD81B159B61369F41 (void);
+// 0x0000005C System.Void Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual::SetNoSupport()
+extern void SpongyAnchorVisual_SetNoSupport_m10A6189A861BC8421D73D5443660D17831E6D26F (void);
+// 0x0000005D System.Void Microsoft.MixedReality.WorldLocking.Tools.SpongyAnchorVisual::.ctor()
+extern void SpongyAnchorVisual__ctor_m92473F9C7714879CA7CA01D753EC91F08C89469F (void);
+// 0x0000005E System.Boolean Microsoft.MixedReality.WorldLocking.Tools.StatusToText::get_VersionTimestampEnabled()
+extern void StatusToText_get_VersionTimestampEnabled_mFF8E51772D2F06C24BC8BF128CB0C8C7947F34C1 (void);
+// 0x0000005F System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::set_VersionTimestampEnabled(System.Boolean)
+extern void StatusToText_set_VersionTimestampEnabled_mA22060F5C4ECFBBD793E4FA68A612B935613813D (void);
+// 0x00000060 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.StatusToText::get_ErrorStatusEnabled()
+extern void StatusToText_get_ErrorStatusEnabled_mDFDAE13665AC9ABDC57BE07053F0E4186FBC4022 (void);
+// 0x00000061 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::set_ErrorStatusEnabled(System.Boolean)
+extern void StatusToText_set_ErrorStatusEnabled_mD2FF9ABA91423711FE369CB0EE2171022D692BCA (void);
+// 0x00000062 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.StatusToText::get_StateIndicatorEnabled()
+extern void StatusToText_get_StateIndicatorEnabled_mDAD5FC5F3079D4B5DF1C4E2FEC94238554B958CE (void);
+// 0x00000063 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::set_StateIndicatorEnabled(System.Boolean)
+extern void StatusToText_set_StateIndicatorEnabled_mFFE7B54DAF1F46584DAD59F548686A8893447BBC (void);
+// 0x00000064 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.StatusToText::get_InfoEnabled()
+extern void StatusToText_get_InfoEnabled_m5E3799509CC39373C8B08CCC4059F0868564AAFB (void);
+// 0x00000065 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::set_InfoEnabled(System.Boolean)
+extern void StatusToText_set_InfoEnabled_m57B5922760AA0E79567B8E36AA6CA1548907A5CF (void);
+// 0x00000066 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.StatusToText::get_MetricsEnabled()
+extern void StatusToText_get_MetricsEnabled_m396D6DB424DF60A1F3D15B42BA3618551CD8B8B5 (void);
+// 0x00000067 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::set_MetricsEnabled(System.Boolean)
+extern void StatusToText_set_MetricsEnabled_m44F3B0A3CF3CBF114783A25108A4A1E0679B59D5 (void);
+// 0x00000068 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.StatusToText::getEnabled(UnityEngine.TextMesh)
+extern void StatusToText_getEnabled_m4DE7939F8C43ADFEF7B6A22E4BD85BAB5D19C18C (void);
+// 0x00000069 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::setEnabled(UnityEngine.TextMesh,System.Boolean)
+extern void StatusToText_setEnabled_mC720171E9468FCA192A07E030D0CECBE0B4EED4E (void);
+// 0x0000006A System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::Start()
+extern void StatusToText_Start_m82E908FE96352258FDAC4F08E38F9F4D6A7B8751 (void);
+// 0x0000006B System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::SetTextIfChanged(UnityEngine.TextMesh,System.String)
+extern void StatusToText_SetTextIfChanged_mB1BC484BAED0A4A6C88F54F1BD13827E1799E0A1 (void);
+// 0x0000006C System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::Update()
+extern void StatusToText_Update_m860F6F2439EF9DB7374A628422873302AF661F5D (void);
+// 0x0000006D System.String Microsoft.MixedReality.WorldLocking.Tools.StatusToText::CaptureVersionTimestamp(Microsoft.MixedReality.WorldLocking.Core.WorldLockingManager)
+extern void StatusToText_CaptureVersionTimestamp_m734B3BBDDEC9F20C86D87FD5A24D07F45413AFCD (void);
+// 0x0000006E System.String Microsoft.MixedReality.WorldLocking.Tools.StatusToText::CaptureInfoText(Microsoft.MixedReality.WorldLocking.Core.WorldLockingManager)
+extern void StatusToText_CaptureInfoText_mF25E960C570F8FB3A3DDAFF3D8516EB4218771ED (void);
+// 0x0000006F System.String Microsoft.MixedReality.WorldLocking.Tools.StatusToText::CaptureMetrics(Microsoft.MixedReality.WorldLocking.Core.WorldLockingManager)
+extern void StatusToText_CaptureMetrics_mC1DFFCFBE80A9D8504BAB9CB2BB318B5F6AF7625 (void);
+// 0x00000070 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText::.ctor()
+extern void StatusToText__ctor_m545AF5C222C85CE301E75C4CCC051DCD154D3860 (void);
+// 0x00000071 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText/FramerateSmoother::AddTime(System.Single)
+extern void FramerateSmoother_AddTime_m79E855A1AF1687C4E84BC52DD3BDA5411435C475 (void);
+// 0x00000072 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText/FramerateSmoother::GetSmoothStats(System.Single&,System.Single&,System.Single&)
+extern void FramerateSmoother_GetSmoothStats_m63E0B4D1A610F24127F2E8937A0DFCE30CB9156E (void);
+// 0x00000073 System.Void Microsoft.MixedReality.WorldLocking.Tools.StatusToText/FramerateSmoother::.ctor()
+extern void FramerateSmoother__ctor_m90C6CF07F62B8819182D178385B73956A2CEC171 (void);
+// 0x00000074 Microsoft.MixedReality.WorldLocking.Core.IAttachmentPoint Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::get_AttachmentPoint()
+extern void ToggleWorldAnchor_get_AttachmentPoint_m57D50E7465F2C42FCFC5FFCD38D48B979B982E52 (void);
+// 0x00000075 System.Void Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::set_AttachmentPoint(Microsoft.MixedReality.WorldLocking.Core.IAttachmentPoint)
+extern void ToggleWorldAnchor_set_AttachmentPoint_mE816D80C4216791982B045FB21F430F06D334CE1 (void);
+// 0x00000076 System.Boolean Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::get_AlwaysLock()
+extern void ToggleWorldAnchor_get_AlwaysLock_mDC7376D9F00353367324ABC16469CFA91BF56DAE (void);
+// 0x00000077 System.Void Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::set_AlwaysLock(System.Boolean)
+extern void ToggleWorldAnchor_set_AlwaysLock_mE994FABF3BAAFBF1AAF3E4ACBC04DF8DB0476608 (void);
+// 0x00000078 System.Void Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::Start()
+extern void ToggleWorldAnchor_Start_m38D2874CC46345DA85EEEE782F8AFABEDABFB2A1 (void);
+// 0x00000079 System.Void Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::OnEnable()
+extern void ToggleWorldAnchor_OnEnable_m20151817093A4A42227E804A0AB597AF5D6F0165 (void);
+// 0x0000007A System.Void Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::OnDisable()
+extern void ToggleWorldAnchor_OnDisable_m614B0FEF5C960396A8EFBEDA909EE82C0B7856BD (void);
+// 0x0000007B System.Void Microsoft.MixedReality.WorldLocking.Tools.ToggleWorldAnchor::.ctor()
+extern void ToggleWorldAnchor__ctor_mAD4705496041A60084DEC38DC72A4D63FCD6D85A (void);
+static Il2CppMethodPointer s_methodPointers[123] = 
+{
+	AdjusterBase__ctor_mBCF5C4DD16BB3E098D9EC3D00146ACE44F930267,
+	AdjusterFixed_get_Manager_mACD56F1F5F70B7C1C61C13F915FA68BFFBA4F295,
+	AdjusterFixed_get_AttachmentPoint_m67CD08ECBEFCDF6BBCDC8D22DFE91FBC0D63D569,
+	AdjusterFixed_set_AttachmentPoint_mFA3D5C1CC9953510294151ADFA83FF15DC1D3B10,
+	AdjusterFixed_Start_mB5A074D8FE2352D9F20FE949B91F87BD3136DF7E,
+	AdjusterFixed_OnDestroy_m476704AA2B759044C8563F14381D56D1EFF83D31,
+	AdjusterFixed_UpdatePosition_mD0BC230915CCD027ECDA17776AA8ECA87312AD93,
+	AdjusterFixed_HandleAdjustLocation_m238E71A3520C6BDDF1C15628BC57EA22251F789A,
+	AdjusterFixed_HandleAdjustState_m69E65B3D79120ECA8033ECBEF6FDC5E151DECA41,
+	AdjusterFixed__ctor_m96CA6EB2A28F27DB7C85D125E35963010FC0C3FA,
+	AdjusterMoving_Update_m4E84ECE15650FC32E86861BC7E148494331DF7FF,
+	AdjusterMoving__ctor_mB0AB9CC28CBBEF9759EAA463FFA81CD1AC340188,
+	AnchorGraphVisual_get_VerticalDisplacement_mBCD96F3416990ED7BBAF7DF41792570B1B0FBDEE,
+	AnchorGraphVisual_set_VerticalDisplacement_m0B64A4609652940FBBAFD7086DA07A4F2E9F71C7,
+	AnchorGraphVisual_get_manager_m218C7E652ED16E11EC8D77C2E95762CB61BF69E8,
+	AnchorGraphVisual_Reset_mA057F9D721DCCAEB263F7E9BF35D331CCEAB4937,
+	AnchorGraphVisual_RefitHandler_mA14248C1F2F764805E3EEAE53F2B01C8B55CDFA7,
+	AnchorGraphVisual_OnEnable_m7EAC0031ED209A10733356BFA3FBA7A8118EAA10,
+	AnchorGraphVisual_OnDisable_m9C6D2E0A61674208AAFDE8202D18817670BFE8BD,
+	AnchorGraphVisual_Update_mFA5D8E19E45C0ADD3A49C67D00AE8BFBDBFB5478,
+	AnchorGraphVisual_UpdateSpongy_m4DFF7746E98DB621F27B8BC5BAD24D05D6A858A9,
+	AnchorGraphVisual_SetSupportRelevances_mEA5E23B2FE33C85B8AB5A2E919BAED8CB03FC5B7,
+	AnchorGraphVisual_UpdateFrozen_m3D3F881C0F9B04DFA7765EDA3C8E7FADC6026289,
+	AnchorGraphVisual_SyncDisplacements_mD21EC8B62B79FB256C7E3649459E03C2165372C2,
+	AnchorGraphVisual_UpdateFragmentVisuals_m1DCF7B62B91E76A58CDA6A4D44735040D953DACC,
+	AnchorGraphVisual_EnsureWorldLockingVizRoot_mCC16E9045C9BF5286EB2CD2DF9127207FBF666B5,
+	AnchorGraphVisual_RegularizeEdge_m2A7818103DFA33E7F292A5C1A53E9FAD712AF23C,
+	AnchorGraphVisual_CompareAnchorEdges_mBDB3AC5563AA8C08EEAC312FC877289BD05A4BBC,
+	NULL,
+	AnchorGraphVisual_CheckSpongyRoot_mC95524ED885353749915D55555831F224E7BF42E,
+	AnchorGraphVisual__ctor_m4694C5CDC8256B97FD442876EE6372EBF50649A2,
+	SpongyVisualCreator__ctor_m4D6BDBE122CE5BB656B1F8E78CD2543D05942AA0,
+	SpongyVisualCreator_CreateSpongyVisual_m0F1C65CE2668BC39241845773BE8B23ABB89C044,
+	SpongyVisualCreator_DestroySpongyVisual_m438B35793CBBF7718A64640DB9EEFA85AEFEA24C,
+	FrozenAnchorVisualCreator__ctor_m8D2521218EA4B0726BF69ADE68DB02424E41A34F,
+	FrozenAnchorVisualCreator_CreateFrozenVisual_m7527A5DEAA683D3AF7CC060716DCD59BB8260DE7,
+	FrozenAnchorVisualCreator_SetPose_mCB2A9BD0576185700C88BDA3E6956617CCC96D5C,
+	FrozenAnchorVisualCreator_UpdateFrozenVisual_m2A369983676995856507112DA166777EBFF35536,
+	FrozenAnchorVisualCreator_DestroyFrozenVisual_m05AB0101BA4AD2E99CF7558D651A7270C3908575,
+	FrozenEdgeVisualCreator__ctor_mB61DF7ECFC119A3E4AC96470AD3A96D7B4753E49,
+	FrozenEdgeVisualCreator_CreateFrozenEdge_mD12FC109807BDE2E569E33FC84E71947AF963205,
+	FrozenEdgeVisualCreator_DestroyFrozenEdge_m572EE3803200E7E492A2A0E4C27822074D87AAD6,
+	U3CU3Ec__cctor_m21B69ED914659E23C36B0DCF54BE074FEFE53A8C,
+	U3CU3Ec__ctor_m33E80BAAE19E615D7DD54512EC7B5BB2B4DBF0B6,
+	U3CU3Ec_U3C_ctorU3Eb__3_0_mEAFD5F95670E6122305ADB82546B36E983D08411,
+	DisplacementCreator__ctor_mC735966CB9C4035F086C4B2E2261BCF9584F47DB,
+	DisplacementCreator_CreateDisplacement_m9967E7478B946642537F737CC3766400B872A30A,
+	DisplacementCreator_DestroyDisplacement_m525B0BBA19BB93E5D203A2FC1D796AB87FFF06D9,
+	DisplacementCreator_ShouldConnect_m463CF900D4F7D73EF77AFC15C9FF08A556E6E2C0,
+	U3CU3Ec__cctor_mDC82BA6C50B0E8EBDA8A186947690B0BB6257534,
+	U3CU3Ec__ctor_m1AC92BA4916C4A7A55922B56AA806C7FE7D535B0,
+	U3CU3Ec_U3CUpdateSpongyU3Eb__22_0_m9413BCB75376881198CF0FC54785CCE23AF6DE5D,
+	U3CU3Ec_U3CUpdateSpongyU3Eb__22_1_m2394F6EF1F2217AF869793CA003BE5C14156FA60,
+	U3CU3Ec_U3CUpdateSpongyU3Eb__22_2_m9C3FCE8A3C7F84E2DE3C7288385D2D319606E0A7,
+	U3CU3Ec_U3CSetSupportRelevancesU3Eb__23_0_mCF33AFEA4A6DE10D65B7DA0B40628076356201DB,
+	U3CU3Ec_U3CUpdateFrozenU3Eb__24_0_mA643CF5957DEEE8E93E7B43A40DBDFEF1D20B3A7,
+	U3CU3Ec_U3CUpdateFrozenU3Eb__24_1_mDB0F55A2787F6AFB06C418E69D73E16F6E22077E,
+	U3CU3Ec_U3CUpdateFrozenU3Eb__24_2_mF11FF562EF75E601E37843C404A85BDA183253B4,
+	U3CU3Ec_U3CUpdateFrozenU3Eb__24_3_m5CF123B5DF37E7BCA4ED11174C89F0B4B58FDAA3,
+	U3CU3Ec_U3C_ctorU3Eb__37_0_mA53435A36AADAFD6F6DF9D7A5FF76E7862EA2C53,
+	ConnectingLine_Create_mB73FD74523AD3B1C434D6D38F1C5730040E60DB0,
+	ConnectingLine_Update_m9AA3361865CC5F5DE66FFC4DE0A5187EA4F84964,
+	ConnectingLine__ctor_m2F3B5B8D44A7FD751C9079B22C1C81886A63975D,
+	FrameVisual_get_color_m39D87F9B4F553395E938C405E4CDC8C026C7015F,
+	FrameVisual_set_color_m2E77E2E81B5AF017948A569D65E017DF42A76976,
+	FrameVisual_Start_m1CDD9845165886EDAC62808DD6DD7AE76D4BB1BB,
+	FrameVisual__ctor_mC96A2D035754C8FCFD8A830BA1A0D5770C167B8A,
+	FrozenAnchorVisual_Instantiate_mFBBE71CB709B42029DA691269F030DFC0D9DF227,
+	FrozenAnchorVisual_Update_m84010703EF8F55966194C0067CB9FE69725912A9,
+	FrozenAnchorVisual__ctor_mCDDFABC185286AE2361F5EC2D2DA415B24E5355F,
+	FrozenSpatialMapping_get_manager_m46FB10A5FB26D88352371D372721C0440EC722ED,
+	FrozenSpatialMapping_get_Active_m6C4F74A451F1B6C0F3E50A8040148AD900FF493A,
+	FrozenSpatialMapping_set_Active_mFA3E465BCF320C4E508D28E7C1031703D1A78E43,
+	FrozenSpatialMapping_get_DrawMaterial_mF9059CB59A31F131247277939F4E25918B8689B1,
+	FrozenSpatialMapping_get_Display_mC982FA4EECDF673447FCCE59874F0796554F1754,
+	FrozenSpatialMapping_set_Display_m86772B91E6514AF0383A97147B5C2FF11756FD53,
+	FrozenSpatialMapping_get_Collide_mE05C05C5654A625503F9E338A153E8029905C058,
+	FrozenSpatialMapping_get_HangerObject_m9BB8E3E11A6FBBA38E63A55CBDCF629A6C646AEF,
+	FrozenSpatialMapping_get_CenterObject_m4BF41B06F962EF1E93C6BA6DBD56974C39BB9BDC,
+	FrozenSpatialMapping_get_UpdatePeriod_mB005AABB62A7D0DCF6416CD47A143181FDCF3729,
+	FrozenSpatialMapping_get_Radius_mF89E3F4B5B6F96967E6FD0B4C713DB3EB59DC323,
+	FrozenSpatialMapping_get_Quality_mE596B3D534936DBE1E7A2C923C36A0ACEF89011C,
+	FrozenSpatialMapping_get_TrianglesPerCubicMeter_m7B7695AB1430450BCE4228650876B9743E1A5A3E,
+	FrozenSpatialMapping_Start_mEE2A4D27328A313C6BD1DA7550D5D85EF0415272,
+	FrozenSpatialMapping_Setup_mE3447FCF938FFF104B00C598C2B34A6C6AB6D277,
+	FrozenSpatialMapping_Teardown_m79392C782DBB07561E27B82911CC0231BE5FE41D,
+	FrozenSpatialMapping_Update_m74B88C0D08C1D498020AEE127962038A0A3177C5,
+	FrozenSpatialMapping__ctor_m3C8E8ECD6CC549BC0F70871C3630CFE774602899,
+	SpongyAnchorVisual_Instantiate_m60C4156F228E0EE85EEF1C0EA3D3421887FF45CD,
+	SpongyAnchorVisual_Update_m935D0C3E5A66C3B1803139DC18D14DC151D33B56,
+	SpongyAnchorVisual_SetSupportRelevance_mD61D0AEA0A68985D57EB8CBAD81B159B61369F41,
+	SpongyAnchorVisual_SetNoSupport_m10A6189A861BC8421D73D5443660D17831E6D26F,
+	SpongyAnchorVisual__ctor_m92473F9C7714879CA7CA01D753EC91F08C89469F,
+	StatusToText_get_VersionTimestampEnabled_mFF8E51772D2F06C24BC8BF128CB0C8C7947F34C1,
+	StatusToText_set_VersionTimestampEnabled_mA22060F5C4ECFBBD793E4FA68A612B935613813D,
+	StatusToText_get_ErrorStatusEnabled_mDFDAE13665AC9ABDC57BE07053F0E4186FBC4022,
+	StatusToText_set_ErrorStatusEnabled_mD2FF9ABA91423711FE369CB0EE2171022D692BCA,
+	StatusToText_get_StateIndicatorEnabled_mDAD5FC5F3079D4B5DF1C4E2FEC94238554B958CE,
+	StatusToText_set_StateIndicatorEnabled_mFFE7B54DAF1F46584DAD59F548686A8893447BBC,
+	StatusToText_get_InfoEnabled_m5E3799509CC39373C8B08CCC4059F0868564AAFB,
+	StatusToText_set_InfoEnabled_m57B5922760AA0E79567B8E36AA6CA1548907A5CF,
+	StatusToText_get_MetricsEnabled_m396D6DB424DF60A1F3D15B42BA3618551CD8B8B5,
+	StatusToText_set_MetricsEnabled_m44F3B0A3CF3CBF114783A25108A4A1E0679B59D5,
+	StatusToText_getEnabled_m4DE7939F8C43ADFEF7B6A22E4BD85BAB5D19C18C,
+	StatusToText_setEnabled_mC720171E9468FCA192A07E030D0CECBE0B4EED4E,
+	StatusToText_Start_m82E908FE96352258FDAC4F08E38F9F4D6A7B8751,
+	StatusToText_SetTextIfChanged_mB1BC484BAED0A4A6C88F54F1BD13827E1799E0A1,
+	StatusToText_Update_m860F6F2439EF9DB7374A628422873302AF661F5D,
+	StatusToText_CaptureVersionTimestamp_m734B3BBDDEC9F20C86D87FD5A24D07F45413AFCD,
+	StatusToText_CaptureInfoText_mF25E960C570F8FB3A3DDAFF3D8516EB4218771ED,
+	StatusToText_CaptureMetrics_mC1DFFCFBE80A9D8504BAB9CB2BB318B5F6AF7625,
+	StatusToText__ctor_m545AF5C222C85CE301E75C4CCC051DCD154D3860,
+	FramerateSmoother_AddTime_m79E855A1AF1687C4E84BC52DD3BDA5411435C475,
+	FramerateSmoother_GetSmoothStats_m63E0B4D1A610F24127F2E8937A0DFCE30CB9156E,
+	FramerateSmoother__ctor_m90C6CF07F62B8819182D178385B73956A2CEC171,
+	ToggleWorldAnchor_get_AttachmentPoint_m57D50E7465F2C42FCFC5FFCD38D48B979B982E52,
+	ToggleWorldAnchor_set_AttachmentPoint_mE816D80C4216791982B045FB21F430F06D334CE1,
+	ToggleWorldAnchor_get_AlwaysLock_mDC7376D9F00353367324ABC16469CFA91BF56DAE,
+	ToggleWorldAnchor_set_AlwaysLock_mE994FABF3BAAFBF1AAF3E4ACBC04DF8DB0476608,
+	ToggleWorldAnchor_Start_m38D2874CC46345DA85EEEE782F8AFABEDABFB2A1,
+	ToggleWorldAnchor_OnEnable_m20151817093A4A42227E804A0AB597AF5D6F0165,
+	ToggleWorldAnchor_OnDisable_m614B0FEF5C960396A8EFBEDA909EE82C0B7856BD,
+	ToggleWorldAnchor__ctor_mAD4705496041A60084DEC38DC72A4D63FCD6D85A,
+};
+static const int32_t s_InvokerIndices[123] = 
+{
+	5779,
+	5691,
+	5691,
+	4639,
+	5779,
+	5779,
+	5779,
+	4653,
+	4602,
+	5779,
+	5779,
+	5779,
+	5736,
+	4679,
+	5691,
+	5779,
+	2606,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	927,
+	5779,
+	5691,
+	7942,
+	7315,
+	-1,
+	4639,
+	5779,
+	1425,
+	2061,
+	4341,
+	1421,
+	1943,
+	2183,
+	2181,
+	4340,
+	2643,
+	1941,
+	4337,
+	8428,
+	5779,
+	1528,
+	5779,
+	989,
+	4339,
+	1848,
+	8428,
+	5779,
+	1723,
+	1720,
+	2718,
+	1605,
+	1602,
+	1600,
+	1596,
+	2179,
+	1598,
+	6269,
+	5779,
+	5779,
+	5578,
+	4530,
+	5779,
+	5779,
+	1820,
+	5779,
+	5779,
+	5691,
+	5729,
+	4673,
+	5691,
+	5729,
+	4673,
+	5729,
+	5691,
+	5691,
+	5736,
+	5736,
+	5652,
+	5736,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	1122,
+	5779,
+	4679,
+	5779,
+	5779,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	3996,
+	2647,
+	5779,
+	2643,
+	5779,
+	3554,
+	3554,
+	3554,
+	5779,
+	4679,
+	1329,
+	5779,
+	5691,
+	4639,
+	5729,
+	4673,
+	5779,
+	5779,
+	5779,
+	5779,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x0600001D, { 0, 1 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
+{
+	{ (Il2CppRGCTXDataType)3, 34010 },
+};
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_WorldLocking_Tools_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_WorldLocking_Tools_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_MixedReality_WorldLocking_Tools_CodeGenModule = 
+{
+	"Microsoft.MixedReality.WorldLocking.Tools.dll",
+	123,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	1,
+	s_rgctxIndices,
+	1,
+	s_rgctxValues,
+	NULL,
+	g_Microsoft_MixedReality_WorldLocking_Tools_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

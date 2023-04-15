@@ -1,0 +1,678 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void DashboardTagalong::Start()
+extern void DashboardTagalong_Start_mD9CF2127F462311EB96D4C166DF1C5EEDE489A3B (void);
+// 0x00000002 System.Void DashboardTagalong::Update()
+extern void DashboardTagalong_Update_m5911120358E28B4128097EB1041EF88D84C82D9D (void);
+// 0x00000003 System.Void DashboardTagalong::.ctor()
+extern void DashboardTagalong__ctor_m2FA5062570FB91C2A1FF2AB506E66F809D2B4EB8 (void);
+// 0x00000004 System.Void RemovableGroup::.ctor()
+extern void RemovableGroup__ctor_m6A4E690A4D5224EAB8B6051FDA3D7569362DE832 (void);
+// 0x00000005 System.Void Microsoft.MixedReality.WorldLocking.Examples.AlignmentControl::Start()
+extern void AlignmentControl_Start_m92934757E72EE9E6CF8262F7EC9AF46DD741E035 (void);
+// 0x00000006 System.Void Microsoft.MixedReality.WorldLocking.Examples.AlignmentControl::Clear()
+extern void AlignmentControl_Clear_mA54FAB5B707B8147238D9FF8E4D3F53A601E6F6D (void);
+// 0x00000007 System.Void Microsoft.MixedReality.WorldLocking.Examples.AlignmentControl::.ctor()
+extern void AlignmentControl__ctor_m8E8FF78EF4B81AC7194FAC7E50E4A5518BF1BEBD (void);
+// 0x00000008 System.Void Microsoft.MixedReality.WorldLocking.Examples.CircleCam::Start()
+extern void CircleCam_Start_mE797EFACB070ECE44D25EEB6C4859D087B585C05 (void);
+// 0x00000009 System.Void Microsoft.MixedReality.WorldLocking.Examples.CircleCam::Update()
+extern void CircleCam_Update_m41FE3574B2B44B461E7CB2085609AA076CC9A749 (void);
+// 0x0000000A System.Void Microsoft.MixedReality.WorldLocking.Examples.CircleCam::.ctor()
+extern void CircleCam__ctor_mE17DB2D5EF68958D24B9585A580DCBCBD66F0A40 (void);
+// 0x0000000B Microsoft.MixedReality.WorldLocking.Core.WorldLockingManager Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_worldLockingManager()
+extern void DashboardCommand_get_worldLockingManager_m8EC90D4A67FE787C18EE6E64DB211E4CCC1AD3A9 (void);
+// 0x0000000C System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::ToggleGui()
+extern void DashboardCommand_ToggleGui_m2DA7E7D5AA02C4D2BAFB6C5703CE61F88AE46B36 (void);
+// 0x0000000D System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::ToggleManager()
+extern void DashboardCommand_ToggleManager_m6D95A908439F3D99E2B934F14C6822F3BD97BEA6 (void);
+// 0x0000000E System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_AnchorVisualization()
+extern void DashboardCommand_get_AnchorVisualization_mBD4D03F05266D13A69816670177E6A906EF6126B (void);
+// 0x0000000F System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_AnchorVisualization(System.Boolean)
+extern void DashboardCommand_set_AnchorVisualization_m9998386A86F8DB248FEDB9C2185BA0CD1C7280D0 (void);
+// 0x00000010 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_InfoEnabled()
+extern void DashboardCommand_get_InfoEnabled_mD6F8279087DDC49654BF0819BD73377BF30D935D (void);
+// 0x00000011 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_InfoEnabled(System.Boolean)
+extern void DashboardCommand_set_InfoEnabled_m03B62C3507AD2840670D7B1ED63EEC9FB5B1EB4B (void);
+// 0x00000012 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_MetricsEnabled()
+extern void DashboardCommand_get_MetricsEnabled_m168A26182700D6559624406EC4ACDE2C2B905A28 (void);
+// 0x00000013 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_MetricsEnabled(System.Boolean)
+extern void DashboardCommand_set_MetricsEnabled_m9640256461999CCEC06339ABF37CD7A193B18F5F (void);
+// 0x00000014 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_StatusEnabled()
+extern void DashboardCommand_get_StatusEnabled_m9322400277A98E54D0E68AF1FAC41F10A8FB2CDC (void);
+// 0x00000015 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_StatusEnabled(System.Boolean)
+extern void DashboardCommand_set_StatusEnabled_m3E827A48E30D695F3E192551206643D1DDD360F5 (void);
+// 0x00000016 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_StateEnabled()
+extern void DashboardCommand_get_StateEnabled_m54F2600FC7B5C9C91EF5C9291214590588904EC3 (void);
+// 0x00000017 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_StateEnabled(System.Boolean)
+extern void DashboardCommand_set_StateEnabled_m8498E758B263582B06435FDC0CF9E62ABFBB0CC1 (void);
+// 0x00000018 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_SpatialMapDisplayEnabled()
+extern void DashboardCommand_get_SpatialMapDisplayEnabled_m5342971311A3D69D034D6195A267249BED3E3977 (void);
+// 0x00000019 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_SpatialMapDisplayEnabled(System.Boolean)
+extern void DashboardCommand_set_SpatialMapDisplayEnabled_m92535BA60580F106DEEA5B92E40F0E18B338D0DF (void);
+// 0x0000001A System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_HasSpatialMap()
+extern void DashboardCommand_get_HasSpatialMap_m7F67FFF1DF1E889C7F2F639ACF3210CADBB7E1DB (void);
+// 0x0000001B System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_ManagerEnabled()
+extern void DashboardCommand_get_ManagerEnabled_m5C461A17814A86A607B33D87CC0715043A261AF4 (void);
+// 0x0000001C System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_ManagerEnabled(System.Boolean)
+extern void DashboardCommand_set_ManagerEnabled_m0AEDC2BEEECCE941F0AB433D94933EC7D916695B (void);
+// 0x0000001D System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_AutoSave()
+extern void DashboardCommand_get_AutoSave_mB7636ACD2411724E2FEB5B0349B4D608610EEB5B (void);
+// 0x0000001E System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_AutoSave(System.Boolean)
+extern void DashboardCommand_set_AutoSave_m2DB1ABB6E0247993FE6DA2B24A46396264CB739F (void);
+// 0x0000001F System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_AutoMerge()
+extern void DashboardCommand_get_AutoMerge_m9C7142C9E924AF3C9FA0BCC5841215646E3EDA4B (void);
+// 0x00000020 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_AutoMerge(System.Boolean)
+extern void DashboardCommand_set_AutoMerge_m39320D5E571AEF17ECA730A5FF37098957D6A01C (void);
+// 0x00000021 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::get_AutoRefreeze()
+extern void DashboardCommand_get_AutoRefreeze_m5F542CE70D7E2C3468C7FF2A737E9267C6038FBE (void);
+// 0x00000022 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::set_AutoRefreeze(System.Boolean)
+extern void DashboardCommand_set_AutoRefreeze_mDBF0F80BD4BD435F0D43E66A51093B41778B3AA1 (void);
+// 0x00000023 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::Refreeze()
+extern void DashboardCommand_Refreeze_m79D581A6F689F3A716AA71CE6B2A78F7249D25C2 (void);
+// 0x00000024 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::Merge()
+extern void DashboardCommand_Merge_m234840BF7D4FFEBCA27DE05CE739547A2C7C1161 (void);
+// 0x00000025 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::Save()
+extern void DashboardCommand_Save_m163C9BADAE9D994930791D2702620CB2015220ED (void);
+// 0x00000026 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::Load()
+extern void DashboardCommand_Load_mEC1DA7A44B5FEBD05EBEC9A16C13B4FD1D092F22 (void);
+// 0x00000027 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::Reset()
+extern void DashboardCommand_Reset_mD142B98746B5C6A8CA4AF8B8EA375019430254DE (void);
+// 0x00000028 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardCommand::.ctor()
+extern void DashboardCommand__ctor_mE9CEC84B62559DDFEC89F6F7945946D3868C869E (void);
+// 0x00000029 System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardUI::Start()
+extern void DashboardUI_Start_m0C31D6ABCA754BBB12BD9B77C602CDEE261FC83C (void);
+// 0x0000002A System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardUI::Update()
+extern void DashboardUI_Update_m04E7A5B468EAE5FF5CCB4BADF5EA39CA90472413 (void);
+// 0x0000002B System.Void Microsoft.MixedReality.WorldLocking.Examples.DashboardUI::.ctor()
+extern void DashboardUI__ctor_mE356651C3DF7247098E07E30C0E6A4BB7A671826 (void);
+// 0x0000002C System.Void Microsoft.MixedReality.WorldLocking.Examples.FallOut::Update()
+extern void FallOut_Update_mFB849729F87B784CE6B645A4EABA757B9776EE9F (void);
+// 0x0000002D System.Void Microsoft.MixedReality.WorldLocking.Examples.FallOut::.ctor()
+extern void FallOut__ctor_mFF244328EFCC336B15E63663313197BB59B2EA39 (void);
+// 0x0000002E UnityEngine.Transform Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_AttachRoot()
+extern void PhysicsBeamSample_get_AttachRoot_m5C3E1BBFF968AD689DC3F818191D3A3AC7497CB1 (void);
+// 0x0000002F UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabDart()
+extern void PhysicsBeamSample_get_PrefabDart_m2B7EC22C750F045B0291CD14C91640462B6470BB (void);
+// 0x00000030 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabPillarFixed()
+extern void PhysicsBeamSample_get_PrefabPillarFixed_mAD21584F8229E692A768AAB7FD01D2DEF1AE36E7 (void);
+// 0x00000031 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabPillarDynamic()
+extern void PhysicsBeamSample_get_PrefabPillarDynamic_m4CAE22DA6CE565AB8568B6145D58A7BE04172182 (void);
+// 0x00000032 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabBeam()
+extern void PhysicsBeamSample_get_PrefabBeam_mF3FEEDF2620641D4917DA28D16BA3CFB1741284A (void);
+// 0x00000033 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabWorldLockedSphere()
+extern void PhysicsBeamSample_get_PrefabWorldLockedSphere_m5CF2CC286B202B3DFB85B584B9509FB77E17E667 (void);
+// 0x00000034 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabUnlockedSphere()
+extern void PhysicsBeamSample_get_PrefabUnlockedSphere_mD57552F92514EEC1295E0F819A1220365AF35CE8 (void);
+// 0x00000035 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_PrefabHybridLockedSphere()
+extern void PhysicsBeamSample_get_PrefabHybridLockedSphere_mDA89D680C2E05DDB4D3AF23AB624238F23BF2934 (void);
+// 0x00000036 UnityEngine.Material Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_LineMaterial()
+extern void PhysicsBeamSample_get_LineMaterial_m759CCFF9E9BD2EB313B099A61AA0629D78873982 (void);
+// 0x00000037 System.Int32 Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::ModeToIndex(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/BuildMode)
+extern void PhysicsBeamSample_ModeToIndex_m5FBD6E08A7FAA452A8669DCE25C8FCEA4519C4BD (void);
+// 0x00000038 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::Start()
+extern void PhysicsBeamSample_Start_m8B901301AB15F8B92CEDEE3FFB6E7F6EA5691B37 (void);
+// 0x00000039 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::Update()
+extern void PhysicsBeamSample_Update_m8A0F16C8DDEF0A8C98E35CF7740479A4C48E8EF2 (void);
+// 0x0000003A System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::SyncRadioSet()
+extern void PhysicsBeamSample_SyncRadioSet_m19878F05F81FB2924AFEF342ADC321ED6279CB46 (void);
+// 0x0000003B System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::HandleHit(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_HandleHit_m68DC4CCDCE205AC3A186981E5FFCC01A32CE2247 (void);
+// 0x0000003C System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::DropDart(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_DropDart_m7BA05CAA05F2BEC9BA012E0BF78E68F47CE3FADE (void);
+// 0x0000003D System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer> Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::FindActivePointers()
+extern void PhysicsBeamSample_FindActivePointers_m089845C86AD0DFD4041BA2B372D2E237167B9C6A (void);
+// 0x0000003E System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::ShowDartArc()
+extern void PhysicsBeamSample_ShowDartArc_m0B70F977BFF24E82D8C96BDE883AC01A911B3166 (void);
+// 0x0000003F Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/VelocityTime Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::ComputeArc(UnityEngine.Vector3,UnityEngine.Vector3)
+extern void PhysicsBeamSample_ComputeArc_m5B04DF37C13A3CAE22E52E39B19F7681301CBFBC (void);
+// 0x00000040 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::ShowArc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern void PhysicsBeamSample_ShowArc_m12E129AC5767A242A7E5410FFB180F2B056E5506 (void);
+// 0x00000041 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::DropPillar(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_DropPillar_m9CAD6B7F73900D20B3E2A74AC87CFF8EC05D1CF8 (void);
+// 0x00000042 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::StartBeam(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_StartBeam_mFD8F0B4A7D0749254FCD7DCE90BF09A15F44F278 (void);
+// 0x00000043 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EndBeam(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_EndBeam_m947DF3655C0E627038CB6C3819F1A784A3714BED (void);
+// 0x00000044 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::SetupLineRenderer()
+extern void PhysicsBeamSample_SetupLineRenderer_m474D0D78DEC25777BE2C6CA10F08503F8C91D072 (void);
+// 0x00000045 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::ShowBeam()
+extern void PhysicsBeamSample_ShowBeam_m15DB022C9BB815BDB30E4B649C19A99749777F5D (void);
+// 0x00000046 Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/WorldLockType Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::get_WorldLock()
+extern void PhysicsBeamSample_get_WorldLock_m33D175FCF28BBF8EF77580FCD0E173731B55110E (void);
+// 0x00000047 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::set_WorldLock(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/WorldLockType)
+extern void PhysicsBeamSample_set_WorldLock_m7F42E8CD43B58946EE67EBF7AECF3CFCCFA56FC0 (void);
+// 0x00000048 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::PinSphere(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_PinSphere_m1D08EEAA600950DCA7A1ACFCF78B30E3D160FDC9 (void);
+// 0x00000049 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::RemoveObject(Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit)
+extern void PhysicsBeamSample_RemoveObject_mA3F9D860EADA7FD1455AC3B57DBA83B7638C622F (void);
+// 0x0000004A System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterIdleMode()
+extern void PhysicsBeamSample_EnterIdleMode_mA8E3D78404A31F1E3EEC29A98DE7EC48861C6E6B (void);
+// 0x0000004B System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterDartMode()
+extern void PhysicsBeamSample_EnterDartMode_m038BAC5A71CACD2F8B3029B8466D583C99385897 (void);
+// 0x0000004C System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterPillarMode()
+extern void PhysicsBeamSample_EnterPillarMode_mAD2B9F64ACC8F8539036248F4CF5C61F5D77985A (void);
+// 0x0000004D Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/WorldLockType Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::NextWorldLock()
+extern void PhysicsBeamSample_NextWorldLock_mBFE5E2E732787290EC6366B21D2CAEC0F8F8FCE9 (void);
+// 0x0000004E System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::SetupWorldLockSelect(System.Boolean)
+extern void PhysicsBeamSample_SetupWorldLockSelect_m8DDC21C1A63870C2BC7C1E414F24AB4FF1EDB0E2 (void);
+// 0x0000004F System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterWorldLockUnlocked()
+extern void PhysicsBeamSample_EnterWorldLockUnlocked_m20A2609BFD630C540F0EED1B6C09988803BF23FF (void);
+// 0x00000050 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterWorldLockWorldLocked()
+extern void PhysicsBeamSample_EnterWorldLockWorldLocked_mB391911474141AD85F4B6853E5A1A0F3DB5819A9 (void);
+// 0x00000051 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterWorldLockHybridLocked()
+extern void PhysicsBeamSample_EnterWorldLockHybridLocked_m48FE368F8C2C3E82AD7CAA3370BA8EB7C9806CFD (void);
+// 0x00000052 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterPinSphereMode()
+extern void PhysicsBeamSample_EnterPinSphereMode_m2DCDFAA1AEA4EC7944FCFD781C4E8EDB43842F55 (void);
+// 0x00000053 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterBeamMode()
+extern void PhysicsBeamSample_EnterBeamMode_mCF4C2D668F07A80ADC0B3C02449519B1B7A24C11 (void);
+// 0x00000054 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::EnterRemoveMode()
+extern void PhysicsBeamSample_EnterRemoveMode_mC0DD45D73C70DBA97DCCFF1DD4D91F3A6FF2BC7C (void);
+// 0x00000055 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::FinishCurrentAction()
+extern void PhysicsBeamSample_FinishCurrentAction_mA4D824EBDA75930F9ABDA0C1E440E5C53ACFB3E5 (void);
+// 0x00000056 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::RegisterHandlers()
+extern void PhysicsBeamSample_RegisterHandlers_m1649A5A763A0A620A015755D5F33D4B1A3B11323 (void);
+// 0x00000057 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::UnregisterHandlers()
+extern void PhysicsBeamSample_UnregisterHandlers_mC7B4B8B5E88F255412222AA57F50B8E479155E0F (void);
+// 0x00000058 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::OnPointerClicked(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void PhysicsBeamSample_OnPointerClicked_mE1029BDEB76FE79230861CB57D8647E6EE024EE3 (void);
+// 0x00000059 System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::OnPointerUp(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void PhysicsBeamSample_OnPointerUp_mA74787533FD83BE0FAA3F121DA6D5FFE09BEFF8E (void);
+// 0x0000005A System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::OnPointerDown(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void PhysicsBeamSample_OnPointerDown_m901593ED2439AD44E5EAD1385FDAEC812937D6D0 (void);
+// 0x0000005B System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::OnPointerDragged(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void PhysicsBeamSample_OnPointerDragged_m0176951514970761312AF4F325ED9C59A94A1531 (void);
+// 0x0000005C System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample::.ctor()
+extern void PhysicsBeamSample__ctor_m43949F9D954D86F480CC008A05A2221B957BFF37 (void);
+// 0x0000005D System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit::.ctor(UnityEngine.Vector3,UnityEngine.RaycastHit)
+extern void RayHit__ctor_mB6E914ECFECA6D242701477150CB3F8F6D5968E5 (void);
+// 0x0000005E System.Void Microsoft.MixedReality.WorldLocking.Examples.PhysicsBeamSample/RayHit::.ctor(Microsoft.MixedReality.Toolkit.Input.IPointerResult)
+extern void RayHit__ctor_m64432C2E16F60A50E597D4846BA5F0552D4EAD83 (void);
+// 0x0000005F System.Void Microsoft.MixedReality.WorldLocking.Examples.ManipulationStartedDelegate::.ctor(System.Object,System.IntPtr)
+extern void ManipulationStartedDelegate__ctor_m8F68FF26F9547079FA57A33F1ECAD447FCDF2875 (void);
+// 0x00000060 System.Void Microsoft.MixedReality.WorldLocking.Examples.ManipulationStartedDelegate::Invoke()
+extern void ManipulationStartedDelegate_Invoke_m62C579A2C9B89D972B8CC7DE09A9132AA3D5A3E3 (void);
+// 0x00000061 System.IAsyncResult Microsoft.MixedReality.WorldLocking.Examples.ManipulationStartedDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void ManipulationStartedDelegate_BeginInvoke_m63A77784E07AD869CF1DA024CF49083F7768E2CA (void);
+// 0x00000062 System.Void Microsoft.MixedReality.WorldLocking.Examples.ManipulationStartedDelegate::EndInvoke(System.IAsyncResult)
+extern void ManipulationStartedDelegate_EndInvoke_m9EF1429CE2CBF7FE1908D0C14E3B980B5956C5FA (void);
+// 0x00000063 System.Void Microsoft.MixedReality.WorldLocking.Examples.ManipulationEndedDelegate::.ctor(System.Object,System.IntPtr)
+extern void ManipulationEndedDelegate__ctor_m39F381E644BBB1853319CA77A3FA77F9808CE2CC (void);
+// 0x00000064 System.Void Microsoft.MixedReality.WorldLocking.Examples.ManipulationEndedDelegate::Invoke()
+extern void ManipulationEndedDelegate_Invoke_m88E3747EC407B560D63AE05A8366B75050AA12AC (void);
+// 0x00000065 System.IAsyncResult Microsoft.MixedReality.WorldLocking.Examples.ManipulationEndedDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern void ManipulationEndedDelegate_BeginInvoke_mD102FA851FC521D67C73C0EEDE4032E35E02E283 (void);
+// 0x00000066 System.Void Microsoft.MixedReality.WorldLocking.Examples.ManipulationEndedDelegate::EndInvoke(System.IAsyncResult)
+extern void ManipulationEndedDelegate_EndInvoke_m0B9FA41E6B68B13E1DCD332DC82F0B2CABFE30B6 (void);
+// 0x00000067 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::get_UserOriented()
+extern void PinManipulator_get_UserOriented_m56B7B5B4F5ED57D5DB2F61D3205E6EFF0E1CF1B2 (void);
+// 0x00000068 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::set_UserOriented(System.Boolean)
+extern void PinManipulator_set_UserOriented_m57B51B39113F5F08A3A148AC024BB2B5EB2E485E (void);
+// 0x00000069 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::.ctor(UnityEngine.Transform,UnityEngine.GameObject,Microsoft.MixedReality.WorldLocking.Examples.ManipulationEndedDelegate)
+extern void PinManipulator__ctor_mF44F858648A6B04E2109E0BC0AE7520863924841 (void);
+// 0x0000006A System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::.ctor(UnityEngine.Transform,UnityEngine.GameObject,Microsoft.MixedReality.WorldLocking.Examples.ManipulationStartedDelegate,Microsoft.MixedReality.WorldLocking.Examples.ManipulationEndedDelegate)
+extern void PinManipulator__ctor_mB782A192BB79438DC8ADF07139FA8B0E644EAE9A (void);
+// 0x0000006B System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::Startup()
+extern void PinManipulator_Startup_m6995A7D306B090B0D9F2249CF22221142E2CB351 (void);
+// 0x0000006C System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::Update()
+extern void PinManipulator_Update_mC7D11B510637135AA07847062B47A9FE363614D4 (void);
+// 0x0000006D System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::Shutdown()
+extern void PinManipulator_Shutdown_mC26A494915B94851D65CBDF9C8DC073CB1E9EC4A (void);
+// 0x0000006E UnityEngine.Transform Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::GetFeelerRayParent()
+extern void PinManipulator_GetFeelerRayParent_mAC7A50F6453DB2F501CBC284CDD1F3273C65EDE1 (void);
+// 0x0000006F System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::SetupFeelerRays()
+extern void PinManipulator_SetupFeelerRays_mCB0B827BD5BF49D954B74AA8335DDFD9A5AC0D64 (void);
+// 0x00000070 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::TakeDownFeelerRays()
+extern void PinManipulator_TakeDownFeelerRays_m69F4B4B2F1B29E8B7C6E20EA99E72BAF56C4D27A (void);
+// 0x00000071 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::ShowFeelerRays()
+extern void PinManipulator_ShowFeelerRays_m2813F3286AC3F4EDE3D641595BBEDC553B13BDD2 (void);
+// 0x00000072 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::HideFeelerRays()
+extern void PinManipulator_HideFeelerRays_m6B7E8C5AD8EE804EA99CCA9A249D20B43174A0F3 (void);
+// 0x00000073 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::SetupManipulation()
+extern void PinManipulator_SetupManipulation_m7B2F624C219950A56C8203289876BA9B65F25563 (void);
+// 0x00000074 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::TakeDownManipulation()
+extern void PinManipulator_TakeDownManipulation_mD332EDD86D32DBA4B072298D5B73D407EB2B1A72 (void);
+// 0x00000075 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::BeginManipulation()
+extern void PinManipulator_BeginManipulation_m5694015069A458F5BDFDDDD18A49F03EBE1123A9 (void);
+// 0x00000076 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::BeginManipulation(Microsoft.MixedReality.Toolkit.UI.ManipulationEventData)
+extern void PinManipulator_BeginManipulation_m2C9E76E9FAEC239D823F25B2636910EB3865B821 (void);
+// 0x00000077 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::FinishManipulation()
+extern void PinManipulator_FinishManipulation_m6918B71B9F0CEC66354348B19B2E8FCF6E648810 (void);
+// 0x00000078 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::FinishManipulation(Microsoft.MixedReality.Toolkit.UI.ManipulationEventData)
+extern void PinManipulator_FinishManipulation_m89776A45DF924FC62F61282A1DBDD1BED49A78B0 (void);
+// 0x00000079 System.Void Microsoft.MixedReality.WorldLocking.Examples.PinManipulator::.cctor()
+extern void PinManipulator__cctor_m3B1218BD269749A51EA72E50309A6E91EA0D9D3E (void);
+// 0x0000007A System.Int32 Microsoft.MixedReality.WorldLocking.Examples.RayPins::get_ActivePin()
+extern void RayPins_get_ActivePin_m1932B8EBFD0D36760080EA6E06C51D767671EF91 (void);
+// 0x0000007B System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::set_ActivePin(System.Int32)
+extern void RayPins_set_ActivePin_m74F8B06490BD89EE6E4BA99E53E7677E82880187 (void);
+// 0x0000007C System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::SetActivePin(System.Int32)
+extern void RayPins_SetActivePin_mFA6F894740AB78C7B57EC5612C2AD5C39175E9C7 (void);
+// 0x0000007D System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::Start()
+extern void RayPins_Start_m7F74EFD95D51BFB7BC1D1CC5C1843FA6817C3EB7 (void);
+// 0x0000007E System.Boolean Microsoft.MixedReality.WorldLocking.Examples.RayPins::CreateSpacePins()
+extern void RayPins_CreateSpacePins_mCECC686ABE6A810D43DFB7875D5EE6DBE3545687 (void);
+// 0x0000007F Microsoft.MixedReality.WorldLocking.Core.SpacePinOrientable Microsoft.MixedReality.WorldLocking.Examples.RayPins::CreateSpacePin(UnityEngine.Transform)
+extern void RayPins_CreateSpacePin_mF602FFBFB339793D9E99EEF478308C061A3142BA (void);
+// 0x00000080 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::ClearAll()
+extern void RayPins_ClearAll_m5AC3DFDE7C6483F0E9A360CA6491F77ABBA5641E (void);
+// 0x00000081 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::HandleHit(Microsoft.MixedReality.WorldLocking.Examples.RayPins/RayHit)
+extern void RayPins_HandleHit_m62050BD09E6EF3903987915B45F2DD7FABB0D171 (void);
+// 0x00000082 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::RegisterHandlers()
+extern void RayPins_RegisterHandlers_mF8BC8C6A3C46BB61FAC7AA50F6FC3C8B132AB609 (void);
+// 0x00000083 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::UnregisterHandlers()
+extern void RayPins_UnregisterHandlers_m267FA003047CBC4D16E7B4DD7429A814439F877B (void);
+// 0x00000084 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::OnPointerClicked(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void RayPins_OnPointerClicked_m08A10BE589B2A0947FA7479E8DEE1500F77D0919 (void);
+// 0x00000085 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::OnPointerUp(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void RayPins_OnPointerUp_m5A5913CBBB7343342520B9960572CF76B29392D3 (void);
+// 0x00000086 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::OnPointerDown(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void RayPins_OnPointerDown_mF13BC08D3B38BCBF373AB3B2865CAB5A3030FB75 (void);
+// 0x00000087 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::OnPointerDragged(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void RayPins_OnPointerDragged_mE46D078F3B51CBF79E6EA5297B601701CB665606 (void);
+// 0x00000088 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins::.ctor()
+extern void RayPins__ctor_mB69DA35163365435E8477D4EE8CA33FFEF075FB6 (void);
+// 0x00000089 System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins/RayHit::.ctor(UnityEngine.Vector3,UnityEngine.RaycastHit)
+extern void RayHit__ctor_mE191FAF09984D29DE064EF3B101FEEEA0A39DD01 (void);
+// 0x0000008A System.Void Microsoft.MixedReality.WorldLocking.Examples.RayPins/RayHit::.ctor(Microsoft.MixedReality.Toolkit.Input.IPointerResult)
+extern void RayHit__ctor_m8305D5B2DA14178E55ED810927854BBA54C6F876 (void);
+// 0x0000008B UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::get_Prefab_FeelerRay()
+extern void SpacePinManipulation_get_Prefab_FeelerRay_mE31116FD05A181875D5B309D9BBDD5E5BE678A87 (void);
+// 0x0000008C System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::set_Prefab_FeelerRay(UnityEngine.GameObject)
+extern void SpacePinManipulation_set_Prefab_FeelerRay_m66118A66341CF3CDD5E2C4315F81DBD32CB0293F (void);
+// 0x0000008D System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::Start()
+extern void SpacePinManipulation_Start_m2BDD345C8ACFD4568FDCB5CBF20EF8A6144E80DC (void);
+// 0x0000008E System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::Update()
+extern void SpacePinManipulation_Update_mF5354497C13D7107564DEB8271F36582F0826182 (void);
+// 0x0000008F System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::OnDestroy()
+extern void SpacePinManipulation_OnDestroy_m5761EA1CE03B3354844A5A1400C0ECD3C24F8637 (void);
+// 0x00000090 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::OnStartManipulation()
+extern void SpacePinManipulation_OnStartManipulation_mE9CA25F08CA9E74289637EA11938D964A437FB2C (void);
+// 0x00000091 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::OnFinishManipulation()
+extern void SpacePinManipulation_OnFinishManipulation_mAD98FD78C118F7436C6E1086988058C362FED64D (void);
+// 0x00000092 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinManipulation::.ctor()
+extern void SpacePinManipulation__ctor_m5BCF6E3F33C2E658F03C6B1DDDC5EC27AD8F884D (void);
+// 0x00000093 UnityEngine.GameObject Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::get_Prefab_FeelerRay()
+extern void SpacePinOrientableManipulation_get_Prefab_FeelerRay_mA589644F3229D6D731CA280527CD92D9B79C919D (void);
+// 0x00000094 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::set_Prefab_FeelerRay(UnityEngine.GameObject)
+extern void SpacePinOrientableManipulation_set_Prefab_FeelerRay_m2B8E67900B7DE5DFF96D78024D8A67034D5FA035 (void);
+// 0x00000095 System.Boolean Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::get_AllowRotation()
+extern void SpacePinOrientableManipulation_get_AllowRotation_mDE9C380BE22EDE2DD00A7F1665F88F28E537C350 (void);
+// 0x00000096 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::set_AllowRotation(System.Boolean)
+extern void SpacePinOrientableManipulation_set_AllowRotation_m8DEFF9ECBA01B2B275ED81FB85C5AEDE5A6C8DD2 (void);
+// 0x00000097 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::Start()
+extern void SpacePinOrientableManipulation_Start_m4B82307069DD527002A6AE5E6ACA1E5500E5D92C (void);
+// 0x00000098 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::Update()
+extern void SpacePinOrientableManipulation_Update_m542DFCA86FADC09687FAB79CD165DD465BE0262F (void);
+// 0x00000099 System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::OnDestroy()
+extern void SpacePinOrientableManipulation_OnDestroy_m0D7D4BC1649546B99CDD74FC14A344ABFD882F37 (void);
+// 0x0000009A System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::OnStartManipulation()
+extern void SpacePinOrientableManipulation_OnStartManipulation_mA16D0CB8BAB9392BF9243F3BB92EA965CE63E80F (void);
+// 0x0000009B System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::OnFinishManipulation()
+extern void SpacePinOrientableManipulation_OnFinishManipulation_m8CE373797537F31EF5455DAA85A91C4288AB6ECC (void);
+// 0x0000009C System.Void Microsoft.MixedReality.WorldLocking.Examples.SpacePinOrientableManipulation::.ctor()
+extern void SpacePinOrientableManipulation__ctor_m60D66F93C950029E7A743F6B3785B6F4BACD01E7 (void);
+static Il2CppMethodPointer s_methodPointers[156] = 
+{
+	DashboardTagalong_Start_mD9CF2127F462311EB96D4C166DF1C5EEDE489A3B,
+	DashboardTagalong_Update_m5911120358E28B4128097EB1041EF88D84C82D9D,
+	DashboardTagalong__ctor_m2FA5062570FB91C2A1FF2AB506E66F809D2B4EB8,
+	RemovableGroup__ctor_m6A4E690A4D5224EAB8B6051FDA3D7569362DE832,
+	AlignmentControl_Start_m92934757E72EE9E6CF8262F7EC9AF46DD741E035,
+	AlignmentControl_Clear_mA54FAB5B707B8147238D9FF8E4D3F53A601E6F6D,
+	AlignmentControl__ctor_m8E8FF78EF4B81AC7194FAC7E50E4A5518BF1BEBD,
+	CircleCam_Start_mE797EFACB070ECE44D25EEB6C4859D087B585C05,
+	CircleCam_Update_m41FE3574B2B44B461E7CB2085609AA076CC9A749,
+	CircleCam__ctor_mE17DB2D5EF68958D24B9585A580DCBCBD66F0A40,
+	DashboardCommand_get_worldLockingManager_m8EC90D4A67FE787C18EE6E64DB211E4CCC1AD3A9,
+	DashboardCommand_ToggleGui_m2DA7E7D5AA02C4D2BAFB6C5703CE61F88AE46B36,
+	DashboardCommand_ToggleManager_m6D95A908439F3D99E2B934F14C6822F3BD97BEA6,
+	DashboardCommand_get_AnchorVisualization_mBD4D03F05266D13A69816670177E6A906EF6126B,
+	DashboardCommand_set_AnchorVisualization_m9998386A86F8DB248FEDB9C2185BA0CD1C7280D0,
+	DashboardCommand_get_InfoEnabled_mD6F8279087DDC49654BF0819BD73377BF30D935D,
+	DashboardCommand_set_InfoEnabled_m03B62C3507AD2840670D7B1ED63EEC9FB5B1EB4B,
+	DashboardCommand_get_MetricsEnabled_m168A26182700D6559624406EC4ACDE2C2B905A28,
+	DashboardCommand_set_MetricsEnabled_m9640256461999CCEC06339ABF37CD7A193B18F5F,
+	DashboardCommand_get_StatusEnabled_m9322400277A98E54D0E68AF1FAC41F10A8FB2CDC,
+	DashboardCommand_set_StatusEnabled_m3E827A48E30D695F3E192551206643D1DDD360F5,
+	DashboardCommand_get_StateEnabled_m54F2600FC7B5C9C91EF5C9291214590588904EC3,
+	DashboardCommand_set_StateEnabled_m8498E758B263582B06435FDC0CF9E62ABFBB0CC1,
+	DashboardCommand_get_SpatialMapDisplayEnabled_m5342971311A3D69D034D6195A267249BED3E3977,
+	DashboardCommand_set_SpatialMapDisplayEnabled_m92535BA60580F106DEEA5B92E40F0E18B338D0DF,
+	DashboardCommand_get_HasSpatialMap_m7F67FFF1DF1E889C7F2F639ACF3210CADBB7E1DB,
+	DashboardCommand_get_ManagerEnabled_m5C461A17814A86A607B33D87CC0715043A261AF4,
+	DashboardCommand_set_ManagerEnabled_m0AEDC2BEEECCE941F0AB433D94933EC7D916695B,
+	DashboardCommand_get_AutoSave_mB7636ACD2411724E2FEB5B0349B4D608610EEB5B,
+	DashboardCommand_set_AutoSave_m2DB1ABB6E0247993FE6DA2B24A46396264CB739F,
+	DashboardCommand_get_AutoMerge_m9C7142C9E924AF3C9FA0BCC5841215646E3EDA4B,
+	DashboardCommand_set_AutoMerge_m39320D5E571AEF17ECA730A5FF37098957D6A01C,
+	DashboardCommand_get_AutoRefreeze_m5F542CE70D7E2C3468C7FF2A737E9267C6038FBE,
+	DashboardCommand_set_AutoRefreeze_mDBF0F80BD4BD435F0D43E66A51093B41778B3AA1,
+	DashboardCommand_Refreeze_m79D581A6F689F3A716AA71CE6B2A78F7249D25C2,
+	DashboardCommand_Merge_m234840BF7D4FFEBCA27DE05CE739547A2C7C1161,
+	DashboardCommand_Save_m163C9BADAE9D994930791D2702620CB2015220ED,
+	DashboardCommand_Load_mEC1DA7A44B5FEBD05EBEC9A16C13B4FD1D092F22,
+	DashboardCommand_Reset_mD142B98746B5C6A8CA4AF8B8EA375019430254DE,
+	DashboardCommand__ctor_mE9CEC84B62559DDFEC89F6F7945946D3868C869E,
+	DashboardUI_Start_m0C31D6ABCA754BBB12BD9B77C602CDEE261FC83C,
+	DashboardUI_Update_m04E7A5B468EAE5FF5CCB4BADF5EA39CA90472413,
+	DashboardUI__ctor_mE356651C3DF7247098E07E30C0E6A4BB7A671826,
+	FallOut_Update_mFB849729F87B784CE6B645A4EABA757B9776EE9F,
+	FallOut__ctor_mFF244328EFCC336B15E63663313197BB59B2EA39,
+	PhysicsBeamSample_get_AttachRoot_m5C3E1BBFF968AD689DC3F818191D3A3AC7497CB1,
+	PhysicsBeamSample_get_PrefabDart_m2B7EC22C750F045B0291CD14C91640462B6470BB,
+	PhysicsBeamSample_get_PrefabPillarFixed_mAD21584F8229E692A768AAB7FD01D2DEF1AE36E7,
+	PhysicsBeamSample_get_PrefabPillarDynamic_m4CAE22DA6CE565AB8568B6145D58A7BE04172182,
+	PhysicsBeamSample_get_PrefabBeam_mF3FEEDF2620641D4917DA28D16BA3CFB1741284A,
+	PhysicsBeamSample_get_PrefabWorldLockedSphere_m5CF2CC286B202B3DFB85B584B9509FB77E17E667,
+	PhysicsBeamSample_get_PrefabUnlockedSphere_mD57552F92514EEC1295E0F819A1220365AF35CE8,
+	PhysicsBeamSample_get_PrefabHybridLockedSphere_mDA89D680C2E05DDB4D3AF23AB624238F23BF2934,
+	PhysicsBeamSample_get_LineMaterial_m759CCFF9E9BD2EB313B099A61AA0629D78873982,
+	PhysicsBeamSample_ModeToIndex_m5FBD6E08A7FAA452A8669DCE25C8FCEA4519C4BD,
+	PhysicsBeamSample_Start_m8B901301AB15F8B92CEDEE3FFB6E7F6EA5691B37,
+	PhysicsBeamSample_Update_m8A0F16C8DDEF0A8C98E35CF7740479A4C48E8EF2,
+	PhysicsBeamSample_SyncRadioSet_m19878F05F81FB2924AFEF342ADC321ED6279CB46,
+	PhysicsBeamSample_HandleHit_m68DC4CCDCE205AC3A186981E5FFCC01A32CE2247,
+	PhysicsBeamSample_DropDart_m7BA05CAA05F2BEC9BA012E0BF78E68F47CE3FADE,
+	PhysicsBeamSample_FindActivePointers_m089845C86AD0DFD4041BA2B372D2E237167B9C6A,
+	PhysicsBeamSample_ShowDartArc_m0B70F977BFF24E82D8C96BDE883AC01A911B3166,
+	PhysicsBeamSample_ComputeArc_m5B04DF37C13A3CAE22E52E39B19F7681301CBFBC,
+	PhysicsBeamSample_ShowArc_m12E129AC5767A242A7E5410FFB180F2B056E5506,
+	PhysicsBeamSample_DropPillar_m9CAD6B7F73900D20B3E2A74AC87CFF8EC05D1CF8,
+	PhysicsBeamSample_StartBeam_mFD8F0B4A7D0749254FCD7DCE90BF09A15F44F278,
+	PhysicsBeamSample_EndBeam_m947DF3655C0E627038CB6C3819F1A784A3714BED,
+	PhysicsBeamSample_SetupLineRenderer_m474D0D78DEC25777BE2C6CA10F08503F8C91D072,
+	PhysicsBeamSample_ShowBeam_m15DB022C9BB815BDB30E4B649C19A99749777F5D,
+	PhysicsBeamSample_get_WorldLock_m33D175FCF28BBF8EF77580FCD0E173731B55110E,
+	PhysicsBeamSample_set_WorldLock_m7F42E8CD43B58946EE67EBF7AECF3CFCCFA56FC0,
+	PhysicsBeamSample_PinSphere_m1D08EEAA600950DCA7A1ACFCF78B30E3D160FDC9,
+	PhysicsBeamSample_RemoveObject_mA3F9D860EADA7FD1455AC3B57DBA83B7638C622F,
+	PhysicsBeamSample_EnterIdleMode_mA8E3D78404A31F1E3EEC29A98DE7EC48861C6E6B,
+	PhysicsBeamSample_EnterDartMode_m038BAC5A71CACD2F8B3029B8466D583C99385897,
+	PhysicsBeamSample_EnterPillarMode_mAD2B9F64ACC8F8539036248F4CF5C61F5D77985A,
+	PhysicsBeamSample_NextWorldLock_mBFE5E2E732787290EC6366B21D2CAEC0F8F8FCE9,
+	PhysicsBeamSample_SetupWorldLockSelect_m8DDC21C1A63870C2BC7C1E414F24AB4FF1EDB0E2,
+	PhysicsBeamSample_EnterWorldLockUnlocked_m20A2609BFD630C540F0EED1B6C09988803BF23FF,
+	PhysicsBeamSample_EnterWorldLockWorldLocked_mB391911474141AD85F4B6853E5A1A0F3DB5819A9,
+	PhysicsBeamSample_EnterWorldLockHybridLocked_m48FE368F8C2C3E82AD7CAA3370BA8EB7C9806CFD,
+	PhysicsBeamSample_EnterPinSphereMode_m2DCDFAA1AEA4EC7944FCFD781C4E8EDB43842F55,
+	PhysicsBeamSample_EnterBeamMode_mCF4C2D668F07A80ADC0B3C02449519B1B7A24C11,
+	PhysicsBeamSample_EnterRemoveMode_mC0DD45D73C70DBA97DCCFF1DD4D91F3A6FF2BC7C,
+	PhysicsBeamSample_FinishCurrentAction_mA4D824EBDA75930F9ABDA0C1E440E5C53ACFB3E5,
+	PhysicsBeamSample_RegisterHandlers_m1649A5A763A0A620A015755D5F33D4B1A3B11323,
+	PhysicsBeamSample_UnregisterHandlers_mC7B4B8B5E88F255412222AA57F50B8E479155E0F,
+	PhysicsBeamSample_OnPointerClicked_mE1029BDEB76FE79230861CB57D8647E6EE024EE3,
+	PhysicsBeamSample_OnPointerUp_mA74787533FD83BE0FAA3F121DA6D5FFE09BEFF8E,
+	PhysicsBeamSample_OnPointerDown_m901593ED2439AD44E5EAD1385FDAEC812937D6D0,
+	PhysicsBeamSample_OnPointerDragged_m0176951514970761312AF4F325ED9C59A94A1531,
+	PhysicsBeamSample__ctor_m43949F9D954D86F480CC008A05A2221B957BFF37,
+	RayHit__ctor_mB6E914ECFECA6D242701477150CB3F8F6D5968E5,
+	RayHit__ctor_m64432C2E16F60A50E597D4846BA5F0552D4EAD83,
+	ManipulationStartedDelegate__ctor_m8F68FF26F9547079FA57A33F1ECAD447FCDF2875,
+	ManipulationStartedDelegate_Invoke_m62C579A2C9B89D972B8CC7DE09A9132AA3D5A3E3,
+	ManipulationStartedDelegate_BeginInvoke_m63A77784E07AD869CF1DA024CF49083F7768E2CA,
+	ManipulationStartedDelegate_EndInvoke_m9EF1429CE2CBF7FE1908D0C14E3B980B5956C5FA,
+	ManipulationEndedDelegate__ctor_m39F381E644BBB1853319CA77A3FA77F9808CE2CC,
+	ManipulationEndedDelegate_Invoke_m88E3747EC407B560D63AE05A8366B75050AA12AC,
+	ManipulationEndedDelegate_BeginInvoke_mD102FA851FC521D67C73C0EEDE4032E35E02E283,
+	ManipulationEndedDelegate_EndInvoke_m0B9FA41E6B68B13E1DCD332DC82F0B2CABFE30B6,
+	PinManipulator_get_UserOriented_m56B7B5B4F5ED57D5DB2F61D3205E6EFF0E1CF1B2,
+	PinManipulator_set_UserOriented_m57B51B39113F5F08A3A148AC024BB2B5EB2E485E,
+	PinManipulator__ctor_mF44F858648A6B04E2109E0BC0AE7520863924841,
+	PinManipulator__ctor_mB782A192BB79438DC8ADF07139FA8B0E644EAE9A,
+	PinManipulator_Startup_m6995A7D306B090B0D9F2249CF22221142E2CB351,
+	PinManipulator_Update_mC7D11B510637135AA07847062B47A9FE363614D4,
+	PinManipulator_Shutdown_mC26A494915B94851D65CBDF9C8DC073CB1E9EC4A,
+	PinManipulator_GetFeelerRayParent_mAC7A50F6453DB2F501CBC284CDD1F3273C65EDE1,
+	PinManipulator_SetupFeelerRays_mCB0B827BD5BF49D954B74AA8335DDFD9A5AC0D64,
+	PinManipulator_TakeDownFeelerRays_m69F4B4B2F1B29E8B7C6E20EA99E72BAF56C4D27A,
+	PinManipulator_ShowFeelerRays_m2813F3286AC3F4EDE3D641595BBEDC553B13BDD2,
+	PinManipulator_HideFeelerRays_m6B7E8C5AD8EE804EA99CCA9A249D20B43174A0F3,
+	PinManipulator_SetupManipulation_m7B2F624C219950A56C8203289876BA9B65F25563,
+	PinManipulator_TakeDownManipulation_mD332EDD86D32DBA4B072298D5B73D407EB2B1A72,
+	PinManipulator_BeginManipulation_m5694015069A458F5BDFDDDD18A49F03EBE1123A9,
+	PinManipulator_BeginManipulation_m2C9E76E9FAEC239D823F25B2636910EB3865B821,
+	PinManipulator_FinishManipulation_m6918B71B9F0CEC66354348B19B2E8FCF6E648810,
+	PinManipulator_FinishManipulation_m89776A45DF924FC62F61282A1DBDD1BED49A78B0,
+	PinManipulator__cctor_m3B1218BD269749A51EA72E50309A6E91EA0D9D3E,
+	RayPins_get_ActivePin_m1932B8EBFD0D36760080EA6E06C51D767671EF91,
+	RayPins_set_ActivePin_m74F8B06490BD89EE6E4BA99E53E7677E82880187,
+	RayPins_SetActivePin_mFA6F894740AB78C7B57EC5612C2AD5C39175E9C7,
+	RayPins_Start_m7F74EFD95D51BFB7BC1D1CC5C1843FA6817C3EB7,
+	RayPins_CreateSpacePins_mCECC686ABE6A810D43DFB7875D5EE6DBE3545687,
+	RayPins_CreateSpacePin_mF602FFBFB339793D9E99EEF478308C061A3142BA,
+	RayPins_ClearAll_m5AC3DFDE7C6483F0E9A360CA6491F77ABBA5641E,
+	RayPins_HandleHit_m62050BD09E6EF3903987915B45F2DD7FABB0D171,
+	RayPins_RegisterHandlers_mF8BC8C6A3C46BB61FAC7AA50F6FC3C8B132AB609,
+	RayPins_UnregisterHandlers_m267FA003047CBC4D16E7B4DD7429A814439F877B,
+	RayPins_OnPointerClicked_m08A10BE589B2A0947FA7479E8DEE1500F77D0919,
+	RayPins_OnPointerUp_m5A5913CBBB7343342520B9960572CF76B29392D3,
+	RayPins_OnPointerDown_mF13BC08D3B38BCBF373AB3B2865CAB5A3030FB75,
+	RayPins_OnPointerDragged_mE46D078F3B51CBF79E6EA5297B601701CB665606,
+	RayPins__ctor_mB69DA35163365435E8477D4EE8CA33FFEF075FB6,
+	RayHit__ctor_mE191FAF09984D29DE064EF3B101FEEEA0A39DD01,
+	RayHit__ctor_m8305D5B2DA14178E55ED810927854BBA54C6F876,
+	SpacePinManipulation_get_Prefab_FeelerRay_mE31116FD05A181875D5B309D9BBDD5E5BE678A87,
+	SpacePinManipulation_set_Prefab_FeelerRay_m66118A66341CF3CDD5E2C4315F81DBD32CB0293F,
+	SpacePinManipulation_Start_m2BDD345C8ACFD4568FDCB5CBF20EF8A6144E80DC,
+	SpacePinManipulation_Update_mF5354497C13D7107564DEB8271F36582F0826182,
+	SpacePinManipulation_OnDestroy_m5761EA1CE03B3354844A5A1400C0ECD3C24F8637,
+	SpacePinManipulation_OnStartManipulation_mE9CA25F08CA9E74289637EA11938D964A437FB2C,
+	SpacePinManipulation_OnFinishManipulation_mAD98FD78C118F7436C6E1086988058C362FED64D,
+	SpacePinManipulation__ctor_m5BCF6E3F33C2E658F03C6B1DDDC5EC27AD8F884D,
+	SpacePinOrientableManipulation_get_Prefab_FeelerRay_mA589644F3229D6D731CA280527CD92D9B79C919D,
+	SpacePinOrientableManipulation_set_Prefab_FeelerRay_m2B8E67900B7DE5DFF96D78024D8A67034D5FA035,
+	SpacePinOrientableManipulation_get_AllowRotation_mDE9C380BE22EDE2DD00A7F1665F88F28E537C350,
+	SpacePinOrientableManipulation_set_AllowRotation_m8DEFF9ECBA01B2B275ED81FB85C5AEDE5A6C8DD2,
+	SpacePinOrientableManipulation_Start_m4B82307069DD527002A6AE5E6ACA1E5500E5D92C,
+	SpacePinOrientableManipulation_Update_m542DFCA86FADC09687FAB79CD165DD465BE0262F,
+	SpacePinOrientableManipulation_OnDestroy_m0D7D4BC1649546B99CDD74FC14A344ABFD882F37,
+	SpacePinOrientableManipulation_OnStartManipulation_mA16D0CB8BAB9392BF9243F3BB92EA965CE63E80F,
+	SpacePinOrientableManipulation_OnFinishManipulation_m8CE373797537F31EF5455DAA85A91C4288AB6ECC,
+	SpacePinOrientableManipulation__ctor_m60D66F93C950029E7A743F6B3785B6F4BACD01E7,
+};
+extern void RayHit__ctor_mB6E914ECFECA6D242701477150CB3F8F6D5968E5_AdjustorThunk (void);
+extern void RayHit__ctor_m64432C2E16F60A50E597D4846BA5F0552D4EAD83_AdjustorThunk (void);
+extern void RayHit__ctor_mE191FAF09984D29DE064EF3B101FEEEA0A39DD01_AdjustorThunk (void);
+extern void RayHit__ctor_m8305D5B2DA14178E55ED810927854BBA54C6F876_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+{
+	{ 0x0600005D, RayHit__ctor_mB6E914ECFECA6D242701477150CB3F8F6D5968E5_AdjustorThunk },
+	{ 0x0600005E, RayHit__ctor_m64432C2E16F60A50E597D4846BA5F0552D4EAD83_AdjustorThunk },
+	{ 0x06000089, RayHit__ctor_mE191FAF09984D29DE064EF3B101FEEEA0A39DD01_AdjustorThunk },
+	{ 0x0600008A, RayHit__ctor_m8305D5B2DA14178E55ED810927854BBA54C6F876_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[156] = 
+{
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5691,
+	5779,
+	5779,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5729,
+	4673,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5691,
+	5691,
+	5691,
+	5691,
+	5691,
+	5691,
+	5691,
+	5691,
+	5691,
+	3255,
+	5779,
+	5779,
+	5779,
+	4817,
+	4817,
+	5691,
+	5779,
+	2747,
+	1477,
+	4817,
+	4817,
+	4817,
+	5779,
+	5779,
+	5652,
+	4602,
+	4817,
+	4817,
+	5779,
+	5779,
+	5779,
+	5652,
+	4673,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	4639,
+	4639,
+	4639,
+	4639,
+	5779,
+	2713,
+	4639,
+	2638,
+	5779,
+	1820,
+	4639,
+	2638,
+	5779,
+	1820,
+	4639,
+	5729,
+	4673,
+	1420,
+	927,
+	5779,
+	5779,
+	5779,
+	8395,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	4639,
+	5779,
+	4639,
+	8428,
+	5652,
+	4602,
+	4602,
+	5779,
+	5729,
+	3554,
+	5779,
+	4820,
+	5779,
+	5779,
+	4639,
+	4639,
+	4639,
+	4639,
+	5779,
+	2713,
+	4639,
+	5691,
+	4639,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5691,
+	4639,
+	5729,
+	4673,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+	5779,
+};
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_WorldLocking_Examples_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_WorldLocking_Examples_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_MixedReality_WorldLocking_Examples_CodeGenModule = 
+{
+	"Microsoft.MixedReality.WorldLocking.Examples.dll",
+	156,
+	s_methodPointers,
+	4,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_Microsoft_MixedReality_WorldLocking_Examples_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,8 @@
+CoarseRelocUW.dll
+AzureSpatialAnchors.dll
+FrozenWorldPlugin.dll
+Microsoft.MixedReality.QR.dll
+openxr_loader.dll
+openxr_runtime_debugger.dll
+
+AudioPluginMsHRTF.dll
